@@ -4,21 +4,74 @@ import { Link } from 'react-router-dom';
 import pdf from '../resume.pdf';
 
 class Nav extends Component {
+    constructor() {
+        super();
+        this.state = {
+            skills: 'white',
+            projects: 'white',
+            education: 'white',
+            resume: 'white'
+        }
+        this.selectSkills = this.selectSkills.bind(this);
+        this.selectProjects = this.selectProjects.bind(this);
+        this.selectEducation = this.selectEducation.bind(this);
+        this.selectResume = this.selectResume.bind(this);
+        this.unselect = this.unselect.bind(this);
+    }
+
+    selectSkills() {
+        this.setState({
+            skills: 'white',
+            projects: 'grey',
+            education: 'grey',
+            resume: 'grey'
+        })
+    }
+
+    selectProjects() {
+        this.setState({
+            skills: 'grey',
+            projects: 'white',
+            education: 'grey',
+            resume: 'grey'
+        })
+    }
+
+    selectEducation() {
+        this.setState({
+            skills: 'grey',
+            projects: 'grey',
+            education: 'white',
+            resume: 'grey'
+        })
+    }
+
+    selectResume() {
+        this.setState({
+            skills: 'grey',
+            projects: 'grey',
+            education: 'grey',
+            resume: 'white'
+        })
+    }
+
+    unselect() {
+        this.setState({
+            skills: 'white',
+            projects: 'white',
+            education: 'white',
+            resume: 'white'
+        })
+    }
     render() {
         return (
-            <Grid container spacing={24} justify="center" style={{ backgroundColor: 'transparent', color: 'white', textDecoration: 'none', padding: '20px' }}>
-                <Grid item xs={8} />
-                <Grid item xs={1} >
-                    <Link to={`/skills`} style={{ color: 'white', textDecoration: 'none' }}>SKILLS</Link>
-                </Grid>
-                <Grid item xs={1} >
-                    <Link to={`/projects`} style={{ color: 'white', textDecoration: 'none' }}>PROJECTS</Link>
-                </Grid>
-                <Grid item xs={1} >
-                    <Link to={`/education`} style={{ color: 'white', textDecoration: 'none' }}>EDUCATION</Link>
-                </Grid>
-                <Grid item xs={1} >
-                    <a href={pdf} style={{ color: 'white', textDecoration: 'none' }} rel="noopener noreferrer" target="_blank">RESUME</a>
+            <Grid container spacing={24} justify="center" style={{ backgroundColor: 'transparent', textDecoration: 'none', padding: '20px' }}>
+                <Grid item xs={6} />
+                <Grid item xs={6} style={{ textAlign: 'right' }}>
+                    <Link to={`/skills`} style={{ color: this.state.skills, textDecoration: 'none', padding: '0 20px 0 20px' }} onMouseEnter={this.selectSkills} onMouseLeave={this.unselect}>SKILLS</Link>
+                    <Link to={`/projects`} style={{ color: this.state.projects, textDecoration: 'none', padding: '0 20px 0 20px' }} onMouseEnter={this.selectProjects} onMouseLeave={this.unselect}>PROJECTS</Link>
+                    <Link to={`/education`} style={{ color: this.state.education, textDecoration: 'none', padding: '0 20px 0 20px' }} onMouseEnter={this.selectEducation} onMouseLeave={this.unselect}>EDUCATION</Link>
+                    <a href={pdf} style={{ color: this.state.resume, textDecoration: 'none', padding: '0 20px 0 20px' }} rel="noopener noreferrer" target="_blank" onMouseEnter={this.selectResume} onMouseLeave={this.unselect}>RESUME</a>
                 </Grid>
             </Grid>
         );
