@@ -28,76 +28,140 @@ class Resume extends Component {
               <a href="https://github.com/jlp0422/capstone" rel="noopener noreferrer" target="_blank">LinkedIn</a>
             </Grid>
 
+
             <Grid xs={4} className='resumeSection'>
               <span>SKILLS</span>
             </Grid>
             <Grid xs={8}>
-              <Grid container spacing={24}>
-                <Grid xs={4} className='resumeDescription'>
+              <Grid container spacing={24} style={{ paddingLeft: '10px', paddingTop: '10px' }}>
+                <Grid xs={3} className='resumeDescription'>
                   <span>
-                  <b>Proficient</b>
-                  <br />JavaScript (ES5/ES6)<br />Node<br />Express<br />Sequelize<br />PostgreSQL<br />React<br />React-Redux<br />Jest<br />Enzyme<br />Axios<br />HTML<br />CSS<br />Git<br />
+                    <b>Proficient</b>
+                    <ul style={{ paddingLeft: '10px', paddingTop: '0', marginTop: '0' }}>
+                      <li>JavaScript (ES5/ES6)</li>
+                      <li>Node</li>
+                      <li>Express</li>
+                      <li>Sequelize</li>
+                      <li>PostgreSQL</li>
+                      <li>React</li>
+                      <li>React-Redux</li>
+                      <li>Jest</li>
+                      <li>Enzyme</li>
+                      <li>Axios</li>
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>Git</li>
+                    </ul>
                   </span>
                 </Grid>
-                <Grid xs={4} className='resumeDescription'>
+                <Grid xs={3} className='resumeDescription'>
                   <span>
-                  <b>Knowledgeable</b>
-                  <br />GraphQL<br />React Native<br />JWT<br />Stripe<br />Moment<br />Heroku<br />Materialize<br />Material-UI
+                    <b>Knowledgeable</b>
+                    <ul style={{ paddingLeft: '10px', paddingTop: '0', marginTop: '0' }}>
+                      <li>React Native</li>
+                      <li>GraphQL</li>
+                      <li>JWT</li>
+                      <li>Stripe</li>
+                      <li>Moment</li>
+                      <li>Materialize</li>
+                      <li>Material-UI</li>
+                      <li>Heroku</li>
+                    </ul>
                   </span>
                 </Grid>
-                <Grid xs={4} className='resumeDescription'>
+                <Grid xs={3} className='resumeDescription'>
                   <span>
-                  <b>Some Experience</b>
-                  <br />Mocha<br />Chai<br />Socket.IO
+                    <b>Some Experience</b>
+                    <ul style={{ paddingLeft: '10px', paddingTop: '0', marginTop: '0' }}>
+                      <li>Mocha</li>
+                      <li>Chai</li>
+                      <li>Socket.IO</li>
+                    </ul>
                   </span>
                 </Grid>
+                <Grid xs={3} />
               </Grid>
             </Grid>
 
-
-            <Grid xs={6} style={{ textAlign: 'center' }}>
+            <Grid xs={4} className='resumeSection'>
               <span>EXPERIENCE</span>
             </Grid>
-            <Grid xs={6} style={{ textAlign: 'center' }}>
+            <Grid xs={8} className='resumeDescription'>
               <span>
-              (Confidential Company), New York, NY - Junior Developer (part-time)
-Developing Jest unit testing for a mobile social networking application built with React Native, GraphQL, Apollo, and AWS.  
-Note: Company is operating in stealth mode and wishes to remain anonymous.  Employment can be verified upon request.
-
-Bar Admissions: New York State, U.S. Patent and Trademark Office
-Various Companies, New York, NY - Contract Attorney                       
-Assist with litigation on temporary projects.
-Heslin Rothenberg Farley & Mesiti, Albany, NY - Counsel                       
-Secured patents for pharmaceutical and biotechnology inventions. 
-Goodwin Procter, New York, NY - Senior Attorney                                        
-Analyzed pharmaceutical and biotechnology patents for litigation.
-Heslin Rothenberg Farley & Mesiti, Albany, NY - Associate                      
-Secured patents for pharmaceutical and biotechnology inventions. 
-CuraGen Corporation, New Haven, CT - Patent Attorney                           
-Secured patents for biotechnology inventions and obtained trademark registrations. 
-Lambert & Associates, Boston, MA - Associate                                              
-Secured patents for mechanical inventions and obtained trademark registrations.
-
-              
+                (Confidential Company), New York, NY - Junior Developer (part-time)
+                <br />
+                Developing Jest unit testing for a mobile social networking application built with React Native, GraphQL, Apollo, and AWS.
+                <br />
+                Note: Company is operating in stealth mode and wishes to remain anonymous.  Employment can be verified upon request.
+              </span>
+              <br />
+              <span>
+                Various Companies, New York, NY - Contract Attorney
+                <br />
+                Assist with litigation on temporary projects
+              </span>
+              <br />
+              <span>
+                Heslin Rothenberg Farley & Mesiti, Albany, NY - Counsel
+                <br />
+                Secured patents for pharmaceutical and biotechnology inventions.
+              </span>
+              <br />
+              <span>
+                Goodwin Procter, New York, NY - Senior Attorney
+                <br />
+                Analyzed pharmaceutical and biotechnology patents for litigation.
+              </span>
+              <br />
+              <span>
+                Heslin Rothenberg Farley & Mesiti, Albany, NY - Associate
+                <br />
+                Secured patents for pharmaceutical and biotechnology inventions.
+              </span>
+              <br />
+              <span>
+                CuraGen Corporation, New Haven, CT - Patent Attorney
+                <br />
+                Secured patents for biotechnology inventions and obtained trademark registrations.
+              </span>
+              <br />
+              <span>
+                Lambert & Associates, Boston, MA - Associate
+                <br />
+                Secured patents for mechanical inventions and obtained trademark registrations.
               </span>
             </Grid>
-            <Grid xs={6} style={{ textAlign: 'center' }}>
-              <span>BAR ADMISSION</span>
+
+            <Grid xs={4} className='resumeSection'>
+              <span>BAR ADMISSIONS</span>
             </Grid>
-            <Grid xs={6} style={{ textAlign: 'center' }}>
-              <span>Description</span>
+            <Grid xs={8} className='resumeDescription'>
+              <span>
+                New York State
+                <br />
+                U.S. Patent and Trademark Office
+              </span>
             </Grid>
-            <Grid xs={6} style={{ textAlign: 'center' }}>
+
+            <Grid xs={4} className='resumeSection'>
               <span>EDUCATION</span>
             </Grid>
-            <Grid xs={6} style={{ textAlign: 'center' }}>
-              <span>Description</span>
-
-Fullstack Academy of Code, New York, NY 
-Cardozo School of Law, New York, NY - J.D. / GPA: 3.02
-Boston University, Boston, MA - M.A. in Biology / GPA: 3.86
-New York University, New York, NY - B.A. with Honors in Biology / GPA: 3.61  
-
+            <Grid xs={8} className='resumeDescription'>
+              <span>
+                Fullstack Academy of Code, New York, NY
+              </span>
+              <br />
+              <span>
+                Cardozo School of Law, New York, NY - J.D. / GPA: 3.02
+              </span>
+              <br />
+              <span>
+                Boston University, Boston, MA - M.A. in Biology / GPA: 3.86
+              </span>
+              <br />
+              <span>
+                New York University, New York, NY - B.A. with Honors in Biology / GPA: 3.61
+              </span>
             </Grid>
           </Grid>
         </div>

@@ -68,3 +68,9 @@ https://www.youtube.com/watch?v=JoKwVyvfHxk
 
 Untapped Trivia:
 https://www.youtube.com/watch?v=cvqqW-UEuMk&feature=youtu.be
+
+
+                  <span>
+                    <b>Proficient</b>
+                    <br />JavaScript (ES5/ES6)<br />Node<br />Express<br />Sequelize<br />PostgreSQL<br />React<br />React-Redux<br />Jest<br />Enzyme<br />Axios<br />HTML<br />CSS<br />Git<br />
+                  </span>
