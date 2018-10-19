@@ -45,10 +45,10 @@ class PersonalWebsite extends React.Component {
         </CardContent>
         <CardActions>
           <Button size="small" color="primary">
-            <a href="www.edtimmer.com" rel="noopener noreferrer" target="_blank">LINK TO WEBSITE</a>
+            <a href="www.edtimmer.com" rel="noopener noreferrer" target="_blank">WEBSITE</a>
           </Button>
           <Button size="small" color="primary">
-            <a href="https://github.com/EdTimmer/edtimmer" rel="noopener noreferrer" target="_blank">LINK TO CODE</a>
+            <a href="https://github.com/EdTimmer/edtimmer" rel="noopener noreferrer" target="_blank">CODE</a>
           </Button>
         </CardActions>
       </Card>

@@ -57,3 +57,14 @@ https://github.com/grumbaut/grace-shopper
 Senior Enrichment Project - solo project school management website (Fullstack Academy school project):
 https://ed-timmer-s-e-p.herokuapp.com/#/
 https://github.com/EdTimmer/senior-enrichment-project
+
+Videos:
+
+Sep:
+https://www.youtube.com/watch?v=b96O1dnzF88
+
+Clickr:
+https://www.youtube.com/watch?v=JoKwVyvfHxk
+
+Untapped Trivia:
+https://www.youtube.com/watch?v=cvqqW-UEuMk&feature=youtu.be

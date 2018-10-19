@@ -45,10 +45,13 @@ class Sep extends React.Component {
         </CardContent>
         <CardActions>
           <Button size="small" color="primary">
-            <a href="https://ed-timmer-s-e-p.herokuapp.com/#/" rel="noopener noreferrer" target="_blank">LINK TO WEBSITE</a>
+            <a href="https://ed-timmer-s-e-p.herokuapp.com/#/" rel="noopener noreferrer" target="_blank">WEBSITE</a>
           </Button>
           <Button size="small" color="primary">
-            <a href="https://github.com/EdTimmer/senior-enrichment-project" rel="noopener noreferrer" target="_blank">LINK TO CODE</a>
+            <a href="https://github.com/EdTimmer/senior-enrichment-project" rel="noopener noreferrer" target="_blank">CODE</a>
+          </Button>
+          <Button size="small" color="primary">
+            <a href="https://www.youtube.com/watch?v=b96O1dnzF88" rel="noopener noreferrer" target="_blank">VIDEO</a>
           </Button>
         </CardActions>
       </Card>

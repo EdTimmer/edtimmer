@@ -40,15 +40,18 @@ class UntappedTrivia extends React.Component {
         />
         <CardContent>
           <Typography component="p">
-            Bar trivia game app built with JavaScript, HTML, CSS, Node, Express, Sequelize, PostgreSQL, React, React-Redux, React Native, Stripe, Moment, and Axios.  
+            Bar trivia game app built with JavaScript, HTML, CSS, Node, Express, Sequelize, PostgreSQL, React, React-Redux, React Native, Stripe, Moment, and Axios.
           </Typography>
         </CardContent>
         <CardActions>
           <Button size="small" color="primary">
-            <a href="https://untapped-trivia.herokuapp.com/" rel="noopener noreferrer" target="_blank">LINK TO WEBSITE</a>
+            <a href="https://untapped-trivia.herokuapp.com/" rel="noopener noreferrer" target="_blank">WEBSITE</a>
           </Button>
           <Button size="small" color="primary">
-            <a href="https://github.com/jlp0422/capstone" rel="noopener noreferrer" target="_blank">LINK TO CODE</a>
+            <a href="https://github.com/jlp0422/capstone" rel="noopener noreferrer" target="_blank">CODE</a>
+          </Button>
+          <Button size="small" color="primary">
+            <a href="https://www.youtube.com/watch?v=cvqqW-UEuMk&feature=youtu.be" rel="noopener noreferrer" target="_blank">VIDEO</a>
           </Button>
         </CardActions>
       </Card>

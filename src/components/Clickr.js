@@ -45,10 +45,13 @@ class Clickr extends React.Component {
         </CardContent>
         <CardActions>
           <Button size="small" color="primary">
-            <a href="https://clickr-app.herokuapp.com/#/" rel="noopener noreferrer" target="_blank">LINK TO WEBSITE</a>
+            <a href="https://clickr-app.herokuapp.com/#/" rel="noopener noreferrer" target="_blank">WEBSITE</a>
           </Button>
           <Button size="small" color="primary">
-            <a href="https://github.com/EdTimmer/clickr" rel="noopener noreferrer" target="_blank">LINK TO CODE</a>
+            <a href="https://github.com/EdTimmer/clickr" rel="noopener noreferrer" target="_blank">CODE</a>
+          </Button>
+          <Button size="small" color="primary">
+            <a href="https://www.youtube.com/watch?v=JoKwVyvfHxk" rel="noopener noreferrer" target="_blank">VIDEO</a>
           </Button>
         </CardActions>
       </Card>
