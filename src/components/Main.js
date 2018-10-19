@@ -4,6 +4,7 @@ import { Switch, Route, HashRouter } from 'react-router-dom';
 import Home from './Home';
 import Portfolio from './Portfolio'
 import Contact from './Contact';
+import Resume from './Resume';
 
 class Main extends Component {
   render() {
@@ -15,6 +16,7 @@ class Main extends Component {
             <Switch>
               <Route exact path="/portfolio" component={Portfolio} />
               <Route exact path="/contact" component={Contact} />
+              <Route exact path="/resume" component={Resume} />
               <Route exact path="/" component={Home} />
             </Switch>
           </div>

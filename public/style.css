@@ -167,6 +167,15 @@ h3 {
   clear: both;
 }
 
+.resumeSection {
+  text-align: right;
+  padding: 20px;
+}
+
+.resumeDescription {
+  text-align: left;
+  padding: 20px;
+}
 /* CSS for autotype */
 
 @-webkit-keyframes typing { from { width: 0; } }
