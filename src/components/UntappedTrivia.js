@@ -7,7 +7,6 @@ import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
 import Typography from '@material-ui/core/Typography';
-import red from '@material-ui/core/colors/red';
 import Button from '@material-ui/core/Button';
 import untappedtrivia from '../images/untappedtrivia.png'
 
@@ -41,16 +40,15 @@ class UntappedTrivia extends React.Component {
         />
         <CardContent>
           <Typography component="p">
-          Bar trivia game app built with JavaScript, HTML, CSS, Node, Express, Sequelize, PostgreSQL, React, React-Redux, React Native, Stripe, Moment, and Axios.
-
+            Bar trivia game app built with JavaScript, HTML, CSS, Node, Express, Sequelize, PostgreSQL, React, React-Redux, React Native, Stripe, Moment, and Axios.  
           </Typography>
         </CardContent>
         <CardActions>
           <Button size="small" color="primary">
-            LINK TO WEBSITE
+            <a href="https://untapped-trivia.herokuapp.com/" rel="noopener noreferrer" target="_blank">LINK TO WEBSITE</a>
           </Button>
           <Button size="small" color="primary">
-            LINK TO CODE
+            <a href="https://github.com/jlp0422/capstone" rel="noopener noreferrer" target="_blank">LINK TO CODE</a>
           </Button>
         </CardActions>
       </Card>

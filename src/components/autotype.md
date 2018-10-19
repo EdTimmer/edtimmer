@@ -29,6 +29,11 @@ h1 {
                blink-caret .5s step-end infinite alternate;
 }
 
+
+Personal Website
+www.edtimmer.com
+https://github.com/EdTimmer/edtimmer
+
 Purly Love
 www.purlylove.com
 https://github.com/EdTimmer/Purly_Love

@@ -3,7 +3,7 @@ import { Switch, Route, HashRouter } from 'react-router-dom';
 
 import Home from './Home';
 import Portfolio from './Portfolio'
-// import Nav from './Nav';
+import Contact from './Contact';
 
 class Main extends Component {
   render() {
@@ -14,6 +14,7 @@ class Main extends Component {
           <div className="container-fluid">
             <Switch>
               <Route exact path="/portfolio" component={Portfolio} />
+              <Route exact path="/contact" component={Contact} />
               <Route exact path="/" component={Home} />
             </Switch>
           </div>

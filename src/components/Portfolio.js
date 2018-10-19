@@ -16,7 +16,7 @@ class Portfolio extends Component {
       <div>
         <div className="bgimg-1">
           <div>
-            <Nav />
+            <Nav header={'PORTFOLIO'} />
           </div>
 
           <Grid container spacing={24} justify="center" alignItems='center' style={{ backgroundColor: 'whitesmoke', padding: '0' }}>

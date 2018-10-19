@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Grid } from '@material-ui/core';
 import Nav from './Nav';
-import RecipeReviewCard from './RecipeReviewCard'
 
 class Portfolio extends Component {
   constructor() {
@@ -96,9 +95,6 @@ class Portfolio extends Component {
                 <a href="ENTER ADDRESS" rel="noopener noreferrer" target="_blank"><h5>code</h5></a>
                 <p>Fullstack Academy solo project</p>
               </div>
-            </Grid>
-            <Grid item xs={4} container justify="center" alignItems='center'>
-              <RecipeReviewCard />
             </Grid>
           </Grid>
         </div>

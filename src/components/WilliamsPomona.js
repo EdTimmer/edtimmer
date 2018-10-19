@@ -7,7 +7,6 @@ import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
 import Typography from '@material-ui/core/Typography';
-import red from '@material-ui/core/colors/red';
 import Button from '@material-ui/core/Button';
 import williamspomona from '../images/williamspomona.png'
 
@@ -46,10 +45,10 @@ class WilliamsPomona extends React.Component {
         </CardContent>
         <CardActions>
           <Button size="small" color="primary">
-            LINK TO WEBSITE
+            <a href="https://williams-pomona.herokuapp.com/#/" rel="noopener noreferrer" target="_blank">LINK TO WEBSITE</a>
           </Button>
           <Button size="small" color="primary">
-            LINK TO CODE
+            <a href="https://github.com/grumbaut/grace-shopper" rel="noopener noreferrer" target="_blank">LINK TO CODE</a>
           </Button>
         </CardActions>
       </Card>

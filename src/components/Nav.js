@@ -9,12 +9,12 @@ class Nav extends Component {
         this.state = {
             home: 'white',
             projects: 'white',
-            education: 'white',
+            contact: 'white',
             resume: 'white'
         }
         this.selectHome = this.selectHome.bind(this);
         this.selectProjects = this.selectProjects.bind(this);
-        this.selectEducation = this.selectEducation.bind(this);
+        this.selectContact = this.selectContact.bind(this);
         this.selectResume = this.selectResume.bind(this);
         this.unselect = this.unselect.bind(this);
     }
@@ -23,7 +23,7 @@ class Nav extends Component {
         this.setState({
             home: 'white',
             projects: 'grey',
-            education: 'grey',
+            contact: 'grey',
             resume: 'grey'
         })
     }
@@ -32,16 +32,16 @@ class Nav extends Component {
         this.setState({
             home: 'grey',
             projects: 'white',
-            education: 'grey',
+            contact: 'grey',
             resume: 'grey'
         })
     }
 
-    selectEducation() {
+    selectContact() {
         this.setState({
             home: 'grey',
             projects: 'grey',
-            education: 'white',
+            contact: 'white',
             resume: 'grey'
         })
     }
@@ -50,7 +50,7 @@ class Nav extends Component {
         this.setState({
             home: 'grey',
             projects: 'grey',
-            education: 'grey',
+            contact: 'grey',
             resume: 'white'
         })
     }
@@ -59,7 +59,7 @@ class Nav extends Component {
         this.setState({
             home: 'white',
             projects: 'white',
-            education: 'white',
+            contact: 'white',
             resume: 'white'
         })
     }
@@ -68,16 +68,16 @@ class Nav extends Component {
             <Grid container spacing={24} justify="center" style={{ textDecoration: 'none', padding: '20px' }}>
                 <Grid item xs={6}>
                     {
-                        this.props.home ? (null) : (
-                            <Link to={`/`} style={{ color: 'white', textDecoration: 'none', padding: '0 20px 0 20px' }}><b style={{ fontSize: "20px" }}>ET</b></Link>
-                        )
+                        this.props.header ? (
+                            <Link to={`/`} className='sectionHeader'>{this.props.header}</Link>
+                        ) : (null)
                     }
 
                 </Grid>
                 <Grid item xs={6} style={{ textAlign: 'right' }}>
-                    <Link to={`/home`} style={{ color: this.state.home, textDecoration: 'none', padding: '0 20px 0 20px' }} onMouseEnter={this.selectHome} onMouseLeave={this.unselect}>HOME</Link>
+                    <Link to={`/`} style={{ color: this.state.home, textDecoration: 'none', padding: '0 20px 0 20px' }} onMouseEnter={this.selectHome} onMouseLeave={this.unselect}>HOME</Link>
                     <Link to={`/portfolio`} style={{ color: this.state.projects, textDecoration: 'none', padding: '0 20px 0 20px' }} onMouseEnter={this.selectProjects} onMouseLeave={this.unselect}>PORTFOLIO</Link>
-                    <Link to={`/education`} style={{ color: this.state.education, textDecoration: 'none', padding: '0 20px 0 20px' }} onMouseEnter={this.selectEducation} onMouseLeave={this.unselect}>EDUCATION</Link>
+                    <Link to={`/contact`} style={{ color: this.state.contact, textDecoration: 'none', padding: '0 20px 0 20px' }} onMouseEnter={this.selectContact} onMouseLeave={this.unselect}>CONTACT</Link>
                     <a href={pdf} style={{ color: this.state.resume, textDecoration: 'none', padding: '0 20px 0 20px' }} rel="noopener noreferrer" target="_blank" onMouseEnter={this.selectResume} onMouseLeave={this.unselect}>RESUME</a>
                 </Grid>
             </Grid>

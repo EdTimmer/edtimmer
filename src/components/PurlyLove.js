@@ -7,7 +7,6 @@ import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
 import Typography from '@material-ui/core/Typography';
-import red from '@material-ui/core/colors/red';
 import Button from '@material-ui/core/Button';
 import purlylove from '../images/purlylove.png'
 
@@ -46,10 +45,10 @@ class PurlyLove extends React.Component {
         </CardContent>
         <CardActions>
           <Button size="small" color="primary">
-            LINK TO WEBSITE
+            <a href="www.purlylove.com" rel="noopener noreferrer" target="_blank">LINK TO WEBSITE</a>
           </Button>
           <Button size="small" color="primary">
-            LINK TO CODE
+            <a href="https://github.com/EdTimmer/Purly_Love" rel="noopener noreferrer" target="_blank">LINK TO CODE</a>
           </Button>
         </CardActions>
       </Card>

@@ -7,7 +7,6 @@ import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
 import Typography from '@material-ui/core/Typography';
-import red from '@material-ui/core/colors/red';
 import Button from '@material-ui/core/Button';
 import clickr from '../images/clickr.png'
 
@@ -41,15 +40,15 @@ class Clickr extends React.Component {
         />
         <CardContent>
           <Typography component="p">
-          Photo sharing website built with JavaScript, HTML, CSS, Node, Express, Sequelize, PostgreSQL, React, React-Redux, and Axios.
+            Photo sharing website built with JavaScript, HTML, CSS, Node, Express, Sequelize, PostgreSQL, React, React-Redux, and Axios.
           </Typography>
         </CardContent>
         <CardActions>
           <Button size="small" color="primary">
-            LINK TO WEBSITE
+            <a href="https://clickr-app.herokuapp.com/#/" rel="noopener noreferrer" target="_blank">LINK TO WEBSITE</a>
           </Button>
           <Button size="small" color="primary">
-            LINK TO CODE
+            <a href="https://github.com/EdTimmer/clickr" rel="noopener noreferrer" target="_blank">LINK TO CODE</a>
           </Button>
         </CardActions>
       </Card>
