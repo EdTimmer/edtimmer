@@ -7,21 +7,21 @@ class Nav extends Component {
     constructor() {
         super();
         this.state = {
-            skills: 'white',
+            home: 'white',
             projects: 'white',
             education: 'white',
             resume: 'white'
         }
-        this.selectSkills = this.selectSkills.bind(this);
+        this.selectHome = this.selectHome.bind(this);
         this.selectProjects = this.selectProjects.bind(this);
         this.selectEducation = this.selectEducation.bind(this);
         this.selectResume = this.selectResume.bind(this);
         this.unselect = this.unselect.bind(this);
     }
 
-    selectSkills() {
+    selectHome() {
         this.setState({
-            skills: 'white',
+            home: 'white',
             projects: 'grey',
             education: 'grey',
             resume: 'grey'
@@ -30,7 +30,7 @@ class Nav extends Component {
 
     selectProjects() {
         this.setState({
-            skills: 'grey',
+            home: 'grey',
             projects: 'white',
             education: 'grey',
             resume: 'grey'
@@ -39,7 +39,7 @@ class Nav extends Component {
 
     selectEducation() {
         this.setState({
-            skills: 'grey',
+            home: 'grey',
             projects: 'grey',
             education: 'white',
             resume: 'grey'
@@ -48,7 +48,7 @@ class Nav extends Component {
 
     selectResume() {
         this.setState({
-            skills: 'grey',
+            home: 'grey',
             projects: 'grey',
             education: 'grey',
             resume: 'white'
@@ -57,7 +57,7 @@ class Nav extends Component {
 
     unselect() {
         this.setState({
-            skills: 'white',
+            home: 'white',
             projects: 'white',
             education: 'white',
             resume: 'white'
@@ -65,11 +65,18 @@ class Nav extends Component {
     }
     render() {
         return (
-            <Grid container spacing={24} justify="center" style={{ backgroundColor: 'transparent', textDecoration: 'none', padding: '20px' }}>
-                <Grid item xs={6} />
+            <Grid container spacing={24} justify="center" style={{ textDecoration: 'none', padding: '20px' }}>
+                <Grid item xs={6}>
+                    {
+                        this.props.home ? (null) : (
+                            <Link to={`/`} style={{ color: 'white', textDecoration: 'none', padding: '0 20px 0 20px' }}><b style={{ fontSize: "20px" }}>ET</b></Link>
+                        )
+                    }
+
+                </Grid>
                 <Grid item xs={6} style={{ textAlign: 'right' }}>
-                    <Link to={`/skills`} style={{ color: this.state.skills, textDecoration: 'none', padding: '0 20px 0 20px' }} onMouseEnter={this.selectSkills} onMouseLeave={this.unselect}>SKILLS</Link>
-                    <Link to={`/projects`} style={{ color: this.state.projects, textDecoration: 'none', padding: '0 20px 0 20px' }} onMouseEnter={this.selectProjects} onMouseLeave={this.unselect}>PROJECTS</Link>
+                    <Link to={`/home`} style={{ color: this.state.home, textDecoration: 'none', padding: '0 20px 0 20px' }} onMouseEnter={this.selectHome} onMouseLeave={this.unselect}>HOME</Link>
+                    <Link to={`/portfolio`} style={{ color: this.state.projects, textDecoration: 'none', padding: '0 20px 0 20px' }} onMouseEnter={this.selectProjects} onMouseLeave={this.unselect}>PORTFOLIO</Link>
                     <Link to={`/education`} style={{ color: this.state.education, textDecoration: 'none', padding: '0 20px 0 20px' }} onMouseEnter={this.selectEducation} onMouseLeave={this.unselect}>EDUCATION</Link>
                     <a href={pdf} style={{ color: this.state.resume, textDecoration: 'none', padding: '0 20px 0 20px' }} rel="noopener noreferrer" target="_blank" onMouseEnter={this.selectResume} onMouseLeave={this.unselect}>RESUME</a>
                 </Grid>

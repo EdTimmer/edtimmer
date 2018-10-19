@@ -5,6 +5,41 @@ body, html {
   color: #777;
 }
 
+a {
+  color: black;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  color: black;
+}
+
+h5 {
+  margin: 0;
+  color: black;
+}
+
+.projectBoxInactive {
+  box-sizing: content-box;
+  width: 300px;
+  height: 120px;
+  border: 3px solid grey;
+  padding: 15px;
+  background-color: white;
+}
+
+.projectBoxActive {
+  box-sizing: content-box;
+  width: 300px;
+  height: 120px;
+  border: 3px solid white;
+  padding: 15px;
+  background-color: black;
+  /* color: white; */
+}
+
+
 .header {
   font-family: Allura, cursive;
   /* font-size: 80px; */
@@ -31,8 +66,8 @@ body, html {
 }
 
 .bgimg-2 {
-  background-image: url("./images/img4.jpg");
-  min-height: 400px;
+  background-image: url("./images/fossil2.jpg");
+  height: 100vh;
 }
 
 .bgimg-3 {
@@ -52,7 +87,7 @@ body, html {
 .captionTwo {
   position: absolute;
   left: 0;
-  top: 40%;
+  top: 30%;
   width: 100%;
   text-align: center;
   color: transparent;
@@ -80,6 +115,13 @@ body, html {
   padding: 10px 40px 10px 40px;
   font-size: 25px;
   letter-spacing: 10px;
+}
+
+.sectionHeader {
+  color: black;
+  letter-spacing: 10px;
+  font-size: 25px;
+  padding: 0;
 }
 
 h3 {
@@ -124,4 +166,23 @@ h3 {
   content: "";
   display: table;
   clear: both;
+}
+
+/* CSS for autotype */
+
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+
+.autotext { 
+    font: bold 300% Consolas, Monaco, monospace;
+    /* color: 'white'; */
+    border-right: .1em solid white;
+    width: 16.5em; 
+    width: 21ch;
+    margin: 2em 1em;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: typing 2s steps(21, end), blink-caret .5s step-end infinite alternate;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: scale(1);
 }

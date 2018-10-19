@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Switch, Route, HashRouter } from 'react-router-dom';
 
 import Home from './Home';
+import Portfolio from './Portfolio'
 // import Nav from './Nav';
 
 class Main extends Component {
@@ -10,12 +11,13 @@ class Main extends Component {
       <HashRouter>
         <div>
           {/*<Route render={({location}) => <Nav path={location.pathname} />} />*/}
-            <div className="container-fluid">
-              <Switch>
-                <Route exact path="/" component={Home} />
-              </Switch>
-            </div>
-        </div>        
+          <div className="container-fluid">
+            <Switch>
+              <Route exact path="/portfolio" component={Portfolio} />
+              <Route exact path="/" component={Home} />
+            </Switch>
+          </div>
+        </div>
       </HashRouter>
     )
   }
