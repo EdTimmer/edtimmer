@@ -28,8 +28,8 @@ class Resume extends Component {
               <Grid container spacing={24} style={{ paddingLeft: '10px', paddingTop: '10px' }}>
                 <Grid xs={3} className='resume'>
                   <span>
-                    <span className='levelOfSkillHeader'>Proficient</span>
-                    <ul style={{ paddingLeft: '10px', paddingTop: '0', marginTop: '0' }}>
+                    <span className='headerTwo'>Proficient</span>
+                    <ul className='list'>
                       <li>JavaScript (ES5/ES6)</li>
                       <li>Node</li>
                       <li>Express</li>
@@ -48,8 +48,8 @@ class Resume extends Component {
                 </Grid>
                 <Grid xs={3} className='resume'>
                   <span>
-                    <span className='levelOfSkillHeader'>Knowledgeable</span>
-                    <ul style={{ paddingLeft: '10px', paddingTop: '0', marginTop: '0' }}>
+                    <span className='headerTwo'>Knowledgeable</span>
+                    <ul className='list'>
                       <li>React Native</li>
                       <li>GraphQL</li>
                       <li>JWT</li>
@@ -63,8 +63,8 @@ class Resume extends Component {
                 </Grid>
                 <Grid xs={3} className='resume'>
                   <span>
-                    <span className='levelOfSkillHeader'>Some Experience</span>
-                    <ul style={{ paddingLeft: '10px', paddingTop: '0', marginTop: '0' }}>
+                    <span className='headerTwo'>Some Experience</span>
+                    <ul className='list'>
                       <li>Mocha</li>
                       <li>Chai</li>
                       <li>Socket.IO</li>
@@ -77,52 +77,54 @@ class Resume extends Component {
 
             <Grid xs={2} />
             <Grid xs={2} className='resume'>
-              <span className='resHeader'>Experience</span>
+              <span className='resHeader'>Work Experience</span>
             </Grid>
             <Grid xs={8} className='resume'>
-              <span>
-                (Confidential Company), New York, NY - Junior Developer (part-time)
-                <br />
+
+              <span className='headerTwo'>Junior Developer (part-time)</span>
+              <p className='jobCompany'>(Confidential Company)<span className='jobLocation'>, New York, NY, 08/2018 - Present</span></p>
+              <p className='jobDescription'>
                 Developing Jest unit testing for a mobile social networking application built with React Native, GraphQL, Apollo, and AWS.
-                <br />
-                Note: Company is operating in stealth mode and wishes to remain anonymous.  Employment can be verified upon request.
-              </span>
-              <br />
-              <span>
-                Various Companies, New York, NY - Contract Attorney
-                <br />
-                Assist with litigation on temporary projects
-              </span>
-              <br />
-              <span>
-                Heslin Rothenberg Farley & Mesiti, Albany, NY - Counsel
-                <br />
+                </p>
+              <p className='jobDescription postPadding'>
+                Note: Company is operating in stealth mode and wishes to remain anonymous. Employment can be verified upon request.
+              </p>
+
+              <span className='headerTwo'>Contract Attorney</span>
+              <p className='jobCompany'>Various Companies<span className='jobLocation'>, New York, NY, 08/2017 - Present</span></p>
+              <p className='jobDescription postPadding'>
+                Assist with litigation on temporary projects.
+              </p>
+
+              <span className='headerTwo'>Counsel</span>
+              <p className='jobCompany'>Heslin Rothenberg Farley & Mesiti<span className='jobLocation'>, Albany, NY, 02/2015 - 06/2017</span></p>
+              <p className='jobDescription postPadding'>
                 Secured patents for pharmaceutical and biotechnology inventions.
-              </span>
-              <br />
-              <span>
-                Goodwin Procter, New York, NY - Senior Attorney
-                <br />
+              </p>
+
+              <span className='headerTwo'>Senior Attorney</span>
+              <p className='jobCompany'>Goodwin Procter<span className='jobLocation'>, New York, NY, 08/2006 - 02/2015</span></p>
+              <p className='jobDescription postPadding'>
                 Analyzed pharmaceutical and biotechnology patents for litigation.
-              </span>
-              <br />
-              <span>
-                Heslin Rothenberg Farley & Mesiti, Albany, NY - Associate
-                <br />
+              </p>
+
+              <span className='headerTwo'>Associate</span>
+              <p className='jobCompany'>Heslin Rothenberg Farley & Mesiti<span className='jobLocation'>, Albany, NY, 01/2004 - 08/2006</span></p>
+              <p className='jobDescription postPadding'>
                 Secured patents for pharmaceutical and biotechnology inventions.
-              </span>
-              <br />
-              <span>
-                CuraGen Corporation, New Haven, CT - Patent Attorney
-                <br />
+              </p>
+
+              <span className='headerTwo postPadding'>Patent Attorney</span>
+              <p className='jobCompany'>CuraGen Corporation<span className='jobLocation'>, New Haven, CT, 12/2002 - 12/2003</span></p>
+              <p className='jobDescription postPadding'>
                 Secured patents for biotechnology inventions and obtained trademark registrations.
-              </span>
-              <br />
-              <span>
-                Lambert & Associates, Boston, MA - Associate
-                <br />
+              </p>
+
+              <span className='headerTwo'>Associate</span>
+              <p className='jobCompany'>Lambert & Associates<span className='jobLocation'>, Boston, MA, 03/2001 - 11/2002</span></p>
+              <p className='jobDescription postPadding'>
                 Secured patents for mechanical inventions and obtained trademark registrations.
-              </span>
+              </p>
             </Grid>
 
             <Grid xs={2} />
@@ -156,6 +158,19 @@ class Resume extends Component {
               <br />
               <span>
                 New York University, New York, NY - B.A. with Honors in Biology / GPA: 3.61
+              </span>
+            </Grid>
+            <Grid xs={2} />
+            <Grid xs={2} className='resume'>
+              <span className='resHeader'>Languages</span>
+            </Grid>
+            <Grid xs={8} className='resume'>
+              <span>
+                English
+              </span>
+              <br />
+              <span>
+                Russian
               </span>
             </Grid>
           </Grid>

@@ -131,12 +131,42 @@ h5 {
   padding: 0 0 0 20px;  
 }
 
-.levelOfSkillHeader {
+.headerTwo {
   letter-spacing: 1px;
   text-transform: uppercase;
   font: 13px "Lato", sans-serif;
   font-weight: bold;
   color: black;
+}
+
+.postPadding {
+  padding-bottom: 15px;
+}
+
+.list {
+  padding: 0 0 0 20px;
+  margin-top: 0;
+  color: rgb(61, 61, 61);
+}
+
+.jobCompany {
+  font-weight: bold;
+  font-size: 15px;
+  color: black;
+  padding-top: 5px;
+}
+
+.jobLocation {
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(61, 61, 61);
+  padding-top: 5px;
+}
+
+
+.jobDescription {
+  /* font-weight: bold; */
+  color: rgb(61, 61, 61);
 }
 
 .aboutText {
@@ -146,6 +176,18 @@ h5 {
   font: 400 20px/1.8 "Lato", sans-serif;
   /* font-weight: bold; */
   color: black;
+}
+
+.resHeader {
+  letter-spacing: 1px;
+  /* text-transform: uppercase; */
+  font: 25px "Lato", sans-serif;
+  color: rgb(61, 61, 61);
+}
+
+.resume {
+  text-align: left;
+  padding: 20px;
 }
 
 /* Turn off parallax scrolling for tablets and phones */
@@ -185,23 +227,6 @@ h5 {
   clear: both;
 }
 
-.resHeader {
-  letter-spacing: 1px;
-  /* text-transform: uppercase; */
-  font: 25px "Lato", sans-serif;
-  color: rgb(61, 61, 61);
-}
-
-/* .resumeSection { */
-  /* font: 20px "Lato", sans-serif; */
-  /* text-align: right; */
-  /* padding: 20px; */
-/* } */
-
-.resume {
-  text-align: left;
-  padding: 20px;
-}
 /* CSS for autotype */
 
 @-webkit-keyframes typing { from { width: 0; } }
