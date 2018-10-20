@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Grid } from '@material-ui/core';
 import Nav from './Nav';
 import pdf from '../resume.pdf';
+import DownloadButton from './DownloadButton';
 
 class Resume extends Component {
   render() {
@@ -13,30 +14,21 @@ class Resume extends Component {
             <Nav header={'RESUME'} />
           </div>
 
-          <Grid container spacing={24} style={{ backgroundColor: 'whitesmoke', padding: '0', height: '95vh' }}>
-
+          <Grid container spacing={24} style={{ backgroundColor: 'white', padding: '0', height: '95vh' }}>
+            {/*backgroundColor: 'whitesmoke',*/}
             <Grid xs={12} style={{ textAlign: 'center' }}>
-              <a href={pdf} rel="noopener noreferrer" target="_blank" onMouseEnter={this.selectResume} onMouseLeave={this.unselect}>DOWNLOAD RESUME</a>
+              <DownloadButton />
             </Grid>
 
-            <Grid xs={4} className='resumeSection'>
-              <span>CONTACT</span>
-            </Grid>
-            <Grid xs={8} className='resumeDescription'>
-              <span>edtimmer@gmail.com</span>
-              <br />
-              <a href="https://github.com/jlp0422/capstone" rel="noopener noreferrer" target="_blank">LinkedIn</a>
-            </Grid>
-
-
-            <Grid xs={4} className='resumeSection'>
-              <span>SKILLS</span>
+            <Grid xs={2} />
+            <Grid xs={2} className='resume'>
+              <span className='resHeader'>Skills</span>
             </Grid>
             <Grid xs={8}>
               <Grid container spacing={24} style={{ paddingLeft: '10px', paddingTop: '10px' }}>
-                <Grid xs={3} className='resumeDescription'>
+                <Grid xs={3} className='resume'>
                   <span>
-                    <b>Proficient</b>
+                    <span className='levelOfSkillHeader'>Proficient</span>
                     <ul style={{ paddingLeft: '10px', paddingTop: '0', marginTop: '0' }}>
                       <li>JavaScript (ES5/ES6)</li>
                       <li>Node</li>
@@ -54,9 +46,9 @@ class Resume extends Component {
                     </ul>
                   </span>
                 </Grid>
-                <Grid xs={3} className='resumeDescription'>
+                <Grid xs={3} className='resume'>
                   <span>
-                    <b>Knowledgeable</b>
+                    <span className='levelOfSkillHeader'>Knowledgeable</span>
                     <ul style={{ paddingLeft: '10px', paddingTop: '0', marginTop: '0' }}>
                       <li>React Native</li>
                       <li>GraphQL</li>
@@ -69,9 +61,9 @@ class Resume extends Component {
                     </ul>
                   </span>
                 </Grid>
-                <Grid xs={3} className='resumeDescription'>
+                <Grid xs={3} className='resume'>
                   <span>
-                    <b>Some Experience</b>
+                    <span className='levelOfSkillHeader'>Some Experience</span>
                     <ul style={{ paddingLeft: '10px', paddingTop: '0', marginTop: '0' }}>
                       <li>Mocha</li>
                       <li>Chai</li>
@@ -83,10 +75,11 @@ class Resume extends Component {
               </Grid>
             </Grid>
 
-            <Grid xs={4} className='resumeSection'>
-              <span>EXPERIENCE</span>
+            <Grid xs={2} />
+            <Grid xs={2} className='resume'>
+              <span className='resHeader'>Experience</span>
             </Grid>
-            <Grid xs={8} className='resumeDescription'>
+            <Grid xs={8} className='resume'>
               <span>
                 (Confidential Company), New York, NY - Junior Developer (part-time)
                 <br />
@@ -132,10 +125,11 @@ class Resume extends Component {
               </span>
             </Grid>
 
-            <Grid xs={4} className='resumeSection'>
-              <span>BAR ADMISSIONS</span>
+            <Grid xs={2} />
+            <Grid xs={2} className='resume'>
+              <span className='resHeader'>Bar Admissions</span>
             </Grid>
-            <Grid xs={8} className='resumeDescription'>
+            <Grid xs={8} className='resume'>
               <span>
                 New York State
                 <br />
@@ -143,10 +137,11 @@ class Resume extends Component {
               </span>
             </Grid>
 
-            <Grid xs={4} className='resumeSection'>
-              <span>EDUCATION</span>
+            <Grid xs={2} />
+            <Grid xs={2} className='resume'>
+              <span className='resHeader'>Education</span>
             </Grid>
-            <Grid xs={8} className='resumeDescription'>
+            <Grid xs={8} className='resume'>
               <span>
                 Fullstack Academy of Code, New York, NY
               </span>

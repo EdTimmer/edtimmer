@@ -7,7 +7,7 @@ class Home extends Component {
     return (
       <div>
         <div className="bgimg-1">
-          <Nav style={{ backgroundColor: 'transparent' }} home={true} />
+          <Nav style={{ backgroundColor: 'transparent' }} />
           <div className="captionTwo">
             <span className="borderTwo" style={{ fontSize: '40px' }}>EDWARD TIMMER</span>
             <br />

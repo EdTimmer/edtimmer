@@ -9,12 +9,12 @@ class Nav extends Component {
         this.state = {
             home: 'white',
             projects: 'white',
-            contact: 'white',
+            about: 'white',
             resume: 'white'
         }
         this.selectHome = this.selectHome.bind(this);
         this.selectProjects = this.selectProjects.bind(this);
-        this.selectContact = this.selectContact.bind(this);
+        this.selectAbout = this.selectAbout.bind(this);
         this.selectResume = this.selectResume.bind(this);
         this.unselect = this.unselect.bind(this);
     }
@@ -23,7 +23,7 @@ class Nav extends Component {
         this.setState({
             home: 'white',
             projects: 'grey',
-            contact: 'grey',
+            about: 'grey',
             resume: 'grey'
         })
     }
@@ -32,16 +32,16 @@ class Nav extends Component {
         this.setState({
             home: 'grey',
             projects: 'white',
-            contact: 'grey',
+            about: 'grey',
             resume: 'grey'
         })
     }
 
-    selectContact() {
+    selectAbout() {
         this.setState({
             home: 'grey',
             projects: 'grey',
-            contact: 'white',
+            about: 'white',
             resume: 'grey'
         })
     }
@@ -50,7 +50,7 @@ class Nav extends Component {
         this.setState({
             home: 'grey',
             projects: 'grey',
-            contact: 'grey',
+            about: 'grey',
             resume: 'white'
         })
     }
@@ -59,7 +59,7 @@ class Nav extends Component {
         this.setState({
             home: 'white',
             projects: 'white',
-            contact: 'white',
+            about: 'white',
             resume: 'white'
         })
     }
@@ -76,8 +76,8 @@ class Nav extends Component {
                 </Grid>
                 <Grid item xs={6} style={{ textAlign: 'right' }}>
                     <Link to={`/`} style={{ color: this.state.home, textDecoration: 'none', padding: '0 20px 0 20px' }} onMouseEnter={this.selectHome} onMouseLeave={this.unselect}>HOME</Link>
+                    <Link to={`/about`} style={{ color: this.state.about, textDecoration: 'none', padding: '0 20px 0 20px' }} onMouseEnter={this.selectAbout} onMouseLeave={this.unselect}>ABOUT</Link>
                     <Link to={`/portfolio`} style={{ color: this.state.projects, textDecoration: 'none', padding: '0 20px 0 20px' }} onMouseEnter={this.selectProjects} onMouseLeave={this.unselect}>PORTFOLIO</Link>
-                    <Link to={`/contact`} style={{ color: this.state.contact, textDecoration: 'none', padding: '0 20px 0 20px' }} onMouseEnter={this.selectContact} onMouseLeave={this.unselect}>CONTACT</Link>
                     <Link to={`/resume`} style={{ color: this.state.resume, textDecoration: 'none', padding: '0 20px 0 20px' }} onMouseEnter={this.selectResume} onMouseLeave={this.unselect}>RESUME</Link>
                     {/*<a href={pdf} style={{ color: this.state.resume, textDecoration: 'none', padding: '0 20px 0 20px' }} rel="noopener noreferrer" target="_blank" onMouseEnter={this.selectResume} onMouseLeave={this.unselect}>RESUME</a>*/}
                 </Grid>
