@@ -12,7 +12,7 @@ class About extends Component {
   render() {
     return (
       <div>
-        <div className="bgimg-1">
+        <div className="bgimg-1A">
           <div>
             <Nav header={'ABOUT'} />
           </div>

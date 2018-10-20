@@ -9,7 +9,7 @@ class Resume extends Component {
   render() {
     return (
       <div>
-        <div className="bgimg-1">
+        <div className="bgimg-1A">
           <div>
             <Nav header={'RESUME'} />
           </div>
@@ -132,11 +132,8 @@ class Resume extends Component {
               <span className='resHeader'>Bar Admissions</span>
             </Grid>
             <Grid xs={8} className='resume'>
-              <span>
-                New York State
-                <br />
-                U.S. Patent and Trademark Office
-              </span>
+              <p className='bar'>New York State</p>
+              <p className='bar'>U.S. Patent and Trademark Office</p>
             </Grid>
 
             <Grid xs={2} />
@@ -144,35 +141,40 @@ class Resume extends Component {
               <span className='resHeader'>Education</span>
             </Grid>
             <Grid xs={8} className='resume'>
-              <span>
-                Fullstack Academy of Code, New York, NY
-              </span>
-              <br />
-              <span>
-                Cardozo School of Law, New York, NY - J.D. / GPA: 3.02
-              </span>
-              <br />
-              <span>
-                Boston University, Boston, MA - M.A. in Biology / GPA: 3.86
-              </span>
-              <br />
-              <span>
-                New York University, New York, NY - B.A. with Honors in Biology / GPA: 3.61
-              </span>
+              <span className='headerTwo'>full stack software engineer</span>
+              <p className='jobCompany'>Fullstack Academy of Code<span className='jobLocation'>, New York, NY, 1/2018 - 6/2018</span></p>
+              <p className='jobDescription postPadding' style={{ marginRight: "300px" }}>
+                <a href="https://www.fullstackacademy.com" rel="noopener noreferrer" target="_blank">Fullstack Academy of Code</a> is a software engineering coding bootcamp with a rigorous admissions process. Through an advanced curriculum and project based structure, students learn full stack JavaScript while immersed in the latest web technologies such as Node.js, React, and SQL.
+              </p>
+
+              <span className='headerTwo'>juris doctor in law</span>
+              <p className='jobCompany'>Cardozo School of Law<span className='jobLocation'>, New York, NY, 09/1997 - 06/2000</span></p>
+              <p className='jobDescription postPadding' style={{ marginRight: "300px" }}>
+                GPA: 3.02
+              </p>
+
+              <span className='headerTwo'>master of arts in biology</span>
+              <p className='jobCompany'>Boston University<span className='jobLocation'>, Boston, MA, 09/1995 - 06/1997</span></p>
+              <p className='jobDescription postPadding' style={{ marginRight: "300px" }}>
+                GPA: 3.86
+              </p>
+
+              <span className='headerTwo'>bachelor of arts in biology</span>
+              <p className='jobCompany'>New York University<span className='jobLocation'>, New York, NY, 09/1991 - 06/1995</span></p>
+              <p className='jobDescription' style={{ marginRight: "300px" }}>
+                GPA: 3.61
+              </p>
             </Grid>
+
             <Grid xs={2} />
             <Grid xs={2} className='resume'>
               <span className='resHeader'>Languages</span>
             </Grid>
             <Grid xs={8} className='resume'>
-              <span>
-                English
-              </span>
-              <br />
-              <span>
-                Russian
-              </span>
+              <p className='bar'>English</p>
+              <p className='bar'>Russian</p>
             </Grid>
+
           </Grid>
         </div>
       </div>

@@ -75,11 +75,14 @@ class Nav extends Component {
 
                 </Grid>
                 <Grid item xs={6} style={{ textAlign: 'right' }}>
-                    <Link to={`/`} style={{ color: this.state.home, textDecoration: 'none', padding: '0 20px 0 20px' }} onMouseEnter={this.selectHome} onMouseLeave={this.unselect}>HOME</Link>
-                    <Link to={`/about`} style={{ color: this.state.about, textDecoration: 'none', padding: '0 20px 0 20px' }} onMouseEnter={this.selectAbout} onMouseLeave={this.unselect}>ABOUT</Link>
-                    <Link to={`/portfolio`} style={{ color: this.state.projects, textDecoration: 'none', padding: '0 20px 0 20px' }} onMouseEnter={this.selectProjects} onMouseLeave={this.unselect}>PORTFOLIO</Link>
-                    <Link to={`/resume`} style={{ color: this.state.resume, textDecoration: 'none', padding: '0 20px 0 20px' }} onMouseEnter={this.selectResume} onMouseLeave={this.unselect}>RESUME</Link>
-                    {/*<a href={pdf} style={{ color: this.state.resume, textDecoration: 'none', padding: '0 20px 0 20px' }} rel="noopener noreferrer" target="_blank" onMouseEnter={this.selectResume} onMouseLeave={this.unselect}>RESUME</a>*/}
+                    <div style={{ paddingTop: '10px' }}>
+                        <Link to={`/`} style={{ color: this.state.home, textDecoration: 'none', padding: '0 20px 0 20px' }} onMouseEnter={this.selectHome} onMouseLeave={this.unselect}>HOME</Link>
+                        <Link to={`/about`} style={{ color: this.state.about, textDecoration: 'none', padding: '0 20px 0 20px' }} onMouseEnter={this.selectAbout} onMouseLeave={this.unselect}>ABOUT</Link>
+                        <Link to={`/portfolio`} style={{ color: this.state.projects, textDecoration: 'none', padding: '0 20px 0 20px' }} onMouseEnter={this.selectProjects} onMouseLeave={this.unselect}>PORTFOLIO</Link>
+                        <Link to={`/resume`} style={{ color: this.state.resume, textDecoration: 'none', padding: '0 20px 0 20px' }} onMouseEnter={this.selectResume} onMouseLeave={this.unselect}>RESUME</Link>
+                        {/*<a href={pdf} style={{ color: this.state.resume, textDecoration: 'none', padding: '0 20px 0 20px' }} rel="noopener noreferrer" target="_blank" onMouseEnter={this.selectResume} onMouseLeave={this.unselect}>RESUME</a>*/}
+                    </div>
+
                 </Grid>
             </Grid>
         );
