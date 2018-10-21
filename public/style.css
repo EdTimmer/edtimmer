@@ -297,3 +297,19 @@ h5 {
     -webkit-backface-visibility: hidden;
     -webkit-transform: scale(1);
 }
+
+/* Scroll Bar */
+
+/* body::-webkit-scrollbar {
+  width: 0.7em;
+  background: transparent;
+ }
+ body::-webkit-scrollbar-thumb {
+  background: grey;
+  height:30px;
+ }
+ 
+ body::-webkit-scrollbar-track-piece
+ {
+   display:none;
+ } */
