@@ -40,7 +40,7 @@ class WilliamsPomona extends React.Component {
         />
         <CardContent>
           <Typography component="p">
-            Shop website built with JavaScript, HTML, CSS, Node, Express, Sequelize, PostgreSQL, React, React-Redux, Axios, and Stripe.
+            E-commerce website built with JavaScript, HTML, CSS, Node, Express, Sequelize, PostgreSQL, React, React-Redux, Axios, and Stripe.
           </Typography>
         </CardContent>
         <CardActions>

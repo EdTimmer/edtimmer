@@ -14,7 +14,7 @@ class Portfolio extends Component {
   render() {
     return (
       <div>
-        <div className="bgimg-1A">
+        <div className="bgimg-1">
           <div>
             <Nav header={'PORTFOLIO'} />
           </div>

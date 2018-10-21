@@ -9,7 +9,7 @@ class Resume extends Component {
   render() {
     return (
       <div>
-        <div className="bgimg-1A">
+        <div className="bgimg-1">
           <div>
             <Nav header={'RESUME'} />
           </div>
@@ -22,7 +22,7 @@ class Resume extends Component {
 
             <Grid xs={2} />
             <Grid xs={2} className='resume'>
-              <span className='resHeader'>Skills</span>
+              <span className='resHeader'>Technologies</span>
             </Grid>
             <Grid xs={8}>
               <Grid container spacing={24} style={{ paddingLeft: '10px', paddingTop: '10px' }}>
@@ -141,7 +141,7 @@ class Resume extends Component {
               <span className='resHeader'>Education</span>
             </Grid>
             <Grid xs={8} className='resume'>
-              <span className='headerTwo'>full stack software engineer</span>
+              {/*<span className='headerTwo'>full stack software engineer</span>*/}
               <p className='jobCompany'>Fullstack Academy of Code<span className='jobLocation'>, New York, NY, 1/2018 - 6/2018</span></p>
               <p className='jobDescription postPadding' style={{ marginRight: "300px" }}>
                 <a href="https://www.fullstackacademy.com" rel="noopener noreferrer" target="_blank">Fullstack Academy of Code</a> is a software engineering coding bootcamp with a rigorous admissions process. Through an advanced curriculum and project based structure, students learn full stack JavaScript while immersed in the latest web technologies such as Node.js, React, and SQL.

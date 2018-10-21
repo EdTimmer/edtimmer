@@ -8,7 +8,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
-import profilewebsite from '../images/profilewebsite.png'
+import profilewebsite from '../images/profile.png'
 
 const styles = theme => ({
   card: {
