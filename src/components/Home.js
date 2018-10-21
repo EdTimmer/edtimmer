@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Nav from './Nav';
 // import fossil from '../images/fossil.jpg'
+import PortfolioButton from './PortfolioButton';
+import ResumeButton from './ResumeButton';
 
 import github from '../images/github.svg';
 import medium from '../images/medium.png';
@@ -68,10 +70,13 @@ class Home extends Component {
 
         <div className="bgimg-1">
           <div className="captionThree">
-            <span className="borderTwo" style={{ fontSize: '20px' }}>thank you for visiting</span>
+            <span className="borderTwo" style={{ fontSize: '20px' }}>thank you for visiting</span><br />
+            <span>
+              <PortfolioButton /><ResumeButton />
+            </span>
+
           </div>
         </div>
-
 
       </div>
     );

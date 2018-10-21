@@ -6,6 +6,9 @@ import pdf from '../resume.pdf';
 import DownloadButton from './DownloadButton';
 
 class Resume extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <div>

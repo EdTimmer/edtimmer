@@ -11,6 +11,9 @@ import WilliamsPomona from './WilliamsPomona';
 import Sep from './Sep';
 
 class Portfolio extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <div>
