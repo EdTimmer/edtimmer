@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Grid } from '@material-ui/core';
 import Nav from './Nav';
-import PersonalWebsite from './PersonalWebsite';
-import PurlyLove from './PurlyLove';
-import SixWords from './SixWords';
-import UntappedTrivia from './UntappedTrivia';
-import Clickr from './Clickr';
-import WilliamsPomona from './WilliamsPomona';
-import Sep from './Sep';
+import PersonalWebsite from './PortfolioWebsites/PersonalWebsite';
+import PurlyLove from './PortfolioWebsites/PurlyLove';
+import SixWords from './PortfolioWebsites/SixWords';
+import UntappedTrivia from './PortfolioWebsites/UntappedTrivia';
+import Clickr from './PortfolioWebsites/Clickr';
+import WilliamsPomona from './PortfolioWebsites/WilliamsPomona';
+import Sep from './PortfolioWebsites/Sep';
 
 class Portfolio extends Component {
   componentDidMount() {
@@ -23,9 +23,7 @@ class Portfolio extends Component {
           </div>
 
           <Grid container spacing={24} justify="center" alignItems='center' style={{ backgroundColor: 'whitesmoke', padding: '0' }}>
-            {/*<Grid xs={12} style={{ textAlign: 'center' }}>
-              <span className='sectionHeader'>PORTFOLIO</span>
-    </Grid>*/}
+
             <Grid item xs={4} container justify="center" alignItems='center'>
               <PersonalWebsite />
             </Grid>

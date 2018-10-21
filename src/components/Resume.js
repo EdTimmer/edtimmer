@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Grid } from '@material-ui/core';
 import Nav from './Nav';
-import pdf from '../resume.pdf';
-import DownloadButton from './DownloadButton';
+import DownloadButton from './Buttons/DownloadButton';
 
 class Resume extends Component {
   componentDidMount() {

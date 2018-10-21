@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Nav from './Nav';
 // import fossil from '../images/fossil.jpg'
-import PortfolioButton from './PortfolioButton';
-import ResumeButton from './ResumeButton';
+import PortfolioButton from './Buttons/PortfolioButton';
+import ResumeButton from './Buttons/ResumeButton';
 
 import github from '../images/github.svg';
 import medium from '../images/medium.png';
@@ -41,7 +41,7 @@ class Home extends Component {
         <div style={{ position: 'relative' }}>
           <div style={{ color: '#777', backgroundColor: 'white', textAlign: 'center', padding: '40px 80px' }}>
             <p>
-              I have 16 years of experience as a pharama and biotech patent attorney.
+              I have 16 years of experience as a pharma and biotech patent attorney.
               </p>
           </div>
         </div>

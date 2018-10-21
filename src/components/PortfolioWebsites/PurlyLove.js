@@ -8,7 +8,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
-import clickr from '../images/clickr.png'
+import purlylove from '../../images/purlylove.png'
 
 const styles = theme => ({
   card: {
@@ -23,35 +23,32 @@ const styles = theme => ({
   }
 });
 
-class Clickr extends React.Component {
+class PurlyLove extends React.Component {
   render() {
     const { classes } = this.props;
 
     return (
       <Card className={classes.card}>
         <CardHeader
-          title="Clickr"
-          subheader="Fullstack Academy solo project | May 2018"
+          title="Purly Love"
+          subheader="Solo project | October 2018"
         />
         <CardMedia
           className={classes.media}
-          image={clickr}
+          image={purlylove}
           title="Contemplative Reptile"
         />
         <CardContent>
           <Typography component="p">
-            Photo sharing website built with JavaScript, HTML, CSS, Node, Express, Sequelize, PostgreSQL, React, React-Redux, and Axios.
+            Knitting artist website built with JavaScript, HTML, CSS, React, and Material UI.
           </Typography>
         </CardContent>
         <CardActions>
           <Button size="small" color="primary">
-            <a href="https://clickr-app.herokuapp.com/#/" rel="noopener noreferrer" target="_blank">WEBSITE</a>
+            <a href="https://purlylove.com/#/" rel="noopener noreferrer" target="_blank">WEBSITE</a>
           </Button>
           <Button size="small" color="primary">
-            <a href="https://github.com/EdTimmer/clickr" rel="noopener noreferrer" target="_blank">CODE</a>
-          </Button>
-          <Button size="small" color="primary">
-            <a href="https://www.youtube.com/watch?v=JoKwVyvfHxk" rel="noopener noreferrer" target="_blank">VIDEO</a>
+            <a href="https://github.com/EdTimmer/Purly_Love" rel="noopener noreferrer" target="_blank">CODE</a>
           </Button>
         </CardActions>
       </Card>
@@ -59,8 +56,8 @@ class Clickr extends React.Component {
   }
 }
 
-Clickr.propTypes = {
+PurlyLove.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(Clickr);
+export default withStyles(styles)(PurlyLove);

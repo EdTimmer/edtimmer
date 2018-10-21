@@ -8,7 +8,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
-import purlylove from '../images/purlylove.png'
+import sixwords from '../../images/sixwords.png'
 
 const styles = theme => ({
   card: {
@@ -23,32 +23,32 @@ const styles = theme => ({
   }
 });
 
-class PurlyLove extends React.Component {
+class SixWords extends React.Component {
   render() {
     const { classes } = this.props;
 
     return (
       <Card className={classes.card}>
         <CardHeader
-          title="Purly Love"
+          title="Six Words"
           subheader="Solo project | October 2018"
         />
         <CardMedia
           className={classes.media}
-          image={purlylove}
+          image={sixwords}
           title="Contemplative Reptile"
         />
         <CardContent>
           <Typography component="p">
-            Knitting artist website built with JavaScript, HTML, CSS, React, and Material UI.
+            Meditation website currently being built with JavaScript, HTML, CSS, Node, Express, Sequelize, PostgreSQL, React, React-Redux, Material UI, and Axios.
           </Typography>
         </CardContent>
         <CardActions>
           <Button size="small" color="primary">
-            <a href="https://purlylove.com/#/" rel="noopener noreferrer" target="_blank">WEBSITE</a>
+            <a href="https://sixwordsofadvice.herokuapp.com/#/" rel="noopener noreferrer" target="_blank">WEBSITE</a>
           </Button>
           <Button size="small" color="primary">
-            <a href="https://github.com/EdTimmer/Purly_Love" rel="noopener noreferrer" target="_blank">CODE</a>
+            <a href="https://github.com/EdTimmer/sixwords" rel="noopener noreferrer" target="_blank">CODE</a>
           </Button>
         </CardActions>
       </Card>
@@ -56,8 +56,8 @@ class PurlyLove extends React.Component {
   }
 }
 
-PurlyLove.propTypes = {
+SixWords.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(PurlyLove);
+export default withStyles(styles)(SixWords);

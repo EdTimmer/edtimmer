@@ -8,7 +8,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
-import sixwords from '../images/sixwords.png'
+import sep from '../../images/sep.png'
 
 const styles = theme => ({
   card: {
@@ -23,32 +23,35 @@ const styles = theme => ({
   }
 });
 
-class SixWords extends React.Component {
+class Sep extends React.Component {
   render() {
     const { classes } = this.props;
 
     return (
       <Card className={classes.card}>
         <CardHeader
-          title="Six Words"
-          subheader="Solo project | October 2018"
+          title="Senior Enrichment Project"
+          subheader="Fullstack Academy solo project | April 2018"
         />
         <CardMedia
           className={classes.media}
-          image={sixwords}
+          image={sep}
           title="Contemplative Reptile"
         />
         <CardContent>
           <Typography component="p">
-            Meditation website currently being built with JavaScript, HTML, CSS, Node, Express, Sequelize, PostgreSQL, React, React-Redux, Material UI, and Axios.
+            School administration website built with JavaScript, HTML, CSS, Node, Express, Sequelize, PostgreSQL, React, React-Redux, and Axios.
           </Typography>
         </CardContent>
         <CardActions>
           <Button size="small" color="primary">
-            <a href="https://sixwordsofadvice.herokuapp.com/#/" rel="noopener noreferrer" target="_blank">WEBSITE</a>
+            <a href="https://ed-timmer-s-e-p.herokuapp.com/#/" rel="noopener noreferrer" target="_blank">WEBSITE</a>
           </Button>
           <Button size="small" color="primary">
-            <a href="https://github.com/EdTimmer/sixwords" rel="noopener noreferrer" target="_blank">CODE</a>
+            <a href="https://github.com/EdTimmer/senior-enrichment-project" rel="noopener noreferrer" target="_blank">CODE</a>
+          </Button>
+          <Button size="small" color="primary">
+            <a href="https://www.youtube.com/watch?v=b96O1dnzF88" rel="noopener noreferrer" target="_blank">VIDEO</a>
           </Button>
         </CardActions>
       </Card>
@@ -56,8 +59,8 @@ class SixWords extends React.Component {
   }
 }
 
-SixWords.propTypes = {
+Sep.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(SixWords);
+export default withStyles(styles)(Sep);

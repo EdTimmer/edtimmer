@@ -2,8 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
-import pdf from '../resume.pdf';
-import { Link } from 'react-router-dom';
+import pdf from '../../resume.pdf';
 
 const styles = theme => ({
   button: {
@@ -14,15 +13,15 @@ const styles = theme => ({
   },
 });
 
-function ResumeButton(props) {
+function DownloadButton(props) {
   const { classes } = props;
   return (
-    <span style={{ padding: '30px' }}>
-      <Link to={"/resume"}>
-        <Button variant="outlined" className={classes.button} style={{ borderColor: 'white' }}>
-          <span className='portfolioButton'>RESUME</span>
+    <div style={{ padding: '30px 0 10px 0' }}>
+      <a href={pdf} rel="noopener noreferrer" target="_blank">
+        <Button variant="outlined" className={classes.button}>
+          <span className='downloadButton'>DOWNLOAD RESUME</span>
         </Button>
-      </Link>
+      </a>
       {/*<Button variant="outlined" color="primary" className={classes.button}>
         Primary
       </Button>
@@ -47,12 +46,12 @@ function ResumeButton(props) {
           Upload
         </Button>
   </label>*/}
-    </span>
+    </div>
   );
 }
 
-ResumeButton.propTypes = {
+DownloadButton.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(ResumeButton);
+export default withStyles(styles)(DownloadButton);

@@ -8,7 +8,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
-import sep from '../images/sep.png'
+import profilewebsite from '../../images/profile.png'
 
 const styles = theme => ({
   card: {
@@ -23,35 +23,32 @@ const styles = theme => ({
   }
 });
 
-class Sep extends React.Component {
+class PersonalWebsite extends React.Component {
   render() {
     const { classes } = this.props;
 
     return (
       <Card className={classes.card}>
         <CardHeader
-          title="Senior Enrichment Project"
-          subheader="Fullstack Academy solo project | April 2018"
+          title="Personal Portfolio"
+          subheader="Solo project | October 2018"
         />
         <CardMedia
           className={classes.media}
-          image={sep}
+          image={profilewebsite}
           title="Contemplative Reptile"
         />
         <CardContent>
           <Typography component="p">
-            School administration website built with JavaScript, HTML, CSS, Node, Express, Sequelize, PostgreSQL, React, React-Redux, and Axios.
+            Personal portfolio website built with JavaScript, HTML, CSS, React, and Material UI.
           </Typography>
         </CardContent>
         <CardActions>
           <Button size="small" color="primary">
-            <a href="https://ed-timmer-s-e-p.herokuapp.com/#/" rel="noopener noreferrer" target="_blank">WEBSITE</a>
+            <a href="https://edtimmer.com" rel="noopener noreferrer" target="_blank">WEBSITE</a>
           </Button>
           <Button size="small" color="primary">
-            <a href="https://github.com/EdTimmer/senior-enrichment-project" rel="noopener noreferrer" target="_blank">CODE</a>
-          </Button>
-          <Button size="small" color="primary">
-            <a href="https://www.youtube.com/watch?v=b96O1dnzF88" rel="noopener noreferrer" target="_blank">VIDEO</a>
+            <a href="https://github.com/EdTimmer/edtimmer" rel="noopener noreferrer" target="_blank">CODE</a>
           </Button>
         </CardActions>
       </Card>
@@ -59,8 +56,8 @@ class Sep extends React.Component {
   }
 }
 
-Sep.propTypes = {
+PersonalWebsite.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(Sep);
+export default withStyles(styles)(PersonalWebsite);

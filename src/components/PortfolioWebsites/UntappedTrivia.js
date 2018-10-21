@@ -8,7 +8,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
-import profilewebsite from '../images/profile.png'
+import untappedtrivia from '../../images/untappedtrivia.png'
 
 const styles = theme => ({
   card: {
@@ -23,32 +23,35 @@ const styles = theme => ({
   }
 });
 
-class PersonalWebsite extends React.Component {
+class UntappedTrivia extends React.Component {
   render() {
     const { classes } = this.props;
 
     return (
       <Card className={classes.card}>
         <CardHeader
-          title="Software Engineer Portfolio"
-          subheader="Solo project | October 2018"
+          title="Untapped Trivia"
+          subheader="Fullstack Academy team project | June 2018"
         />
         <CardMedia
           className={classes.media}
-          image={profilewebsite}
+          image={untappedtrivia}
           title="Contemplative Reptile"
         />
         <CardContent>
           <Typography component="p">
-            Personal portfolio website built with JavaScript, HTML, CSS, React, and Material UI.
+            Bar trivia game app built with JavaScript, HTML, CSS, Node, Express, Sequelize, PostgreSQL, React, React-Redux, React Native, Stripe, Moment, and Axios.
           </Typography>
         </CardContent>
         <CardActions>
           <Button size="small" color="primary">
-            <a href="https://edtimmer.com" rel="noopener noreferrer" target="_blank">WEBSITE</a>
+            <a href="https://untapped-trivia.herokuapp.com/" rel="noopener noreferrer" target="_blank">WEBSITE</a>
           </Button>
           <Button size="small" color="primary">
-            <a href="https://github.com/EdTimmer/edtimmer" rel="noopener noreferrer" target="_blank">CODE</a>
+            <a href="https://github.com/jlp0422/capstone" rel="noopener noreferrer" target="_blank">CODE</a>
+          </Button>
+          <Button size="small" color="primary">
+            <a href="https://www.youtube.com/watch?v=cvqqW-UEuMk&feature=youtu.be" rel="noopener noreferrer" target="_blank">VIDEO</a>
           </Button>
         </CardActions>
       </Card>
@@ -56,8 +59,8 @@ class PersonalWebsite extends React.Component {
   }
 }
 
-PersonalWebsite.propTypes = {
+UntappedTrivia.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(PersonalWebsite);
+export default withStyles(styles)(UntappedTrivia);
