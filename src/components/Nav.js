@@ -54,10 +54,9 @@ class Nav extends Component {
                 <Grid item xs={6}>
                     {
                         this.props.header ? (
-                            <Link to={`/`} className='sectionHeader'>{this.props.header}</Link>
+                            <span className='sectionHeader'>{this.props.header}</span>
                         ) : (null)
                     }
-
                 </Grid>
                 <Grid item xs={6} style={{ textAlign: 'right' }}>
                     <div style={{ paddingTop: '10px' }}>
