@@ -50,7 +50,7 @@ class Nav extends Component {
     }
     render() {
         return (
-            <Grid container spacing={24} justify="center" style={{ textDecoration: 'none', padding: '20px' }}>
+            <Grid container spacing={0} justify="center" style={{ textDecoration: 'none', padding: '20px' }}>
                 <Grid item xs={6}>
                     {
                         this.props.header ? (

@@ -21,29 +21,27 @@ class Portfolio extends Component {
                         <Nav header={'PORTFOLIO'} />
                     </div>
 
-                    <Grid container spacing={24} alignItems='center' style={{ backgroundColor: 'whitesmoke', padding: '0' }}>
+                    <Grid container spacing={0} alignItems='center' style={{ backgroundColor: 'whitesmoke' }}>
                         {/* justify="center" alignItems='center' */}
-                        <Grid item xs={4} container justify="center" alignItems='center'>
+                        <Grid item xs={4} container justify="center" alignItems='center' className='portfolioPadding'>
                             <PersonalWebsite />
                         </Grid>
-                        <Grid item xs={4} container justify="center" alignItems='center'>
-                            <span style={{ paddingTop: '0', marginTop: '0' }}>
-                                <PurlyLove />
-                            </span>
+                        <Grid item xs={4} container justify="center" alignItems='center' className='portfolioPadding'>
+                            <PurlyLove />
                         </Grid>
-                        <Grid item xs={4} container justify="center" alignItems='center'>
+                        <Grid item xs={4} container justify="center" alignItems='center' className='portfolioPadding'>
                             <SixWords />
                         </Grid>
-                        <Grid item xs={4} container justify="center" alignItems='center'>
+                        <Grid item xs={4} container justify="center" alignItems='center' className='portfolioPadding'>
                             <UntappedTrivia />
                         </Grid>
-                        <Grid item xs={4} container justify="center" alignItems='center'>
+                        <Grid item xs={4} container justify="center" alignItems='center' className='portfolioPadding'>
                             <Clickr />
                         </Grid>
-                        <Grid item xs={4} container justify="center" alignItems='center'>
+                        <Grid item xs={4} container justify="center" alignItems='center' className='portfolioPadding'>
                             <WilliamsPomona />
                         </Grid>
-                        <Grid item xs={4} container justify="center" alignItems='center'>
+                        <Grid item xs={4} container justify="center" alignItems='center' className='portfolioPadding'>
                             <Sep />
                         </Grid>
                     </Grid>

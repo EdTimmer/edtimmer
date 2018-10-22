@@ -15,7 +15,7 @@ class Resume extends Component {
             <Nav header={'RESUME'} />
           </div>
 
-          <Grid container spacing={24} style={{ backgroundColor: 'white', padding: '0', height: '95vh' }}>
+          <Grid container spacing={0} style={{ backgroundColor: 'white', padding: '0', height: '95vh' }}>
 
             <Grid xs={12} style={{ textAlign: 'center' }}>
               <DownloadButton />
@@ -26,7 +26,7 @@ class Resume extends Component {
               <span className='resHeader'>Technologies</span>
             </Grid>
             <Grid xs={8}>
-              <Grid container spacing={24} style={{ paddingLeft: '10px', paddingTop: '10px' }}>
+              <Grid container spacing={0} style={{ paddingLeft: '10px', paddingTop: '10px' }}>
                 <Grid xs={3} className='resume'>
                   <span>
                     <span className='headerTwo'>Proficient</span>

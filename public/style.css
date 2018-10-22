@@ -151,6 +151,10 @@ h5 {
   letter-spacing: 10px;
 }
 
+.portfolioPadding {
+  padding: 10px 0 10px 0;
+}
+
 .downloadButton {
   /* color: #fff; */
   letter-spacing: 1px;
@@ -297,6 +301,10 @@ h5 {
     -webkit-backface-visibility: hidden;
     -webkit-transform: scale(1);
 }
+
+/* DOWN ARROW */
+
+
 
 /* Scroll Bar */
 
