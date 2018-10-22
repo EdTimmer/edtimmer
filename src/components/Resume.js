@@ -26,7 +26,7 @@ class Resume extends Component {
               <span className='resHeader'>Technologies</span>
             </Grid>
             <Grid xs={8}>
-              <Grid container spacing={0} style={{ paddingLeft: '10px', paddingTop: '10px' }}>
+              <Grid container spacing={0} style={{ paddingLeft: '10px' }}>
                 <Grid xs={3} className='resume'>
                   <span>
                     <span className='headerTwo'>Proficient</span>
