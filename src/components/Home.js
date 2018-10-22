@@ -22,10 +22,10 @@ class Home extends Component {
                         <span className="borderTwo" style={{ fontSize: '40px' }}>EDWARD TIMMER</span>
                         <br />
                         <span className="borderTwo" style={{ fontSize: '20px' }}>full stack software engineer</span>
+                    </div>
 
-                        <div style={{ textAlign: 'center', paddingTop: '200px' }}>
-                            <img src={downarrow} width={20} />
-                        </div>
+                    <div className='captionArrow'>
+                        <img src={downarrow} width={20} />
                     </div>
 
 
@@ -77,11 +77,11 @@ class Home extends Component {
 
                 <div className="bgimg-1">
                     <div className="captionThree">
-                        <span className="borderTwo" style={{ fontSize: '20px' }}>thank you for visiting</span><br />
-                        <span>
-                            <PortfolioButton /><ResumeButton />
-                        </span>
+                        <span className="borderTwo" style={{ fontSize: '20px' }}>thank you for visiting</span>
+                    </div>
 
+                    <div className='captionButtons'>
+                        <PortfolioButton /><ResumeButton />
                     </div>
                 </div>
 

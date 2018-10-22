@@ -120,6 +120,24 @@ h5 {
   color: transparent;
 }
 
+.captionArrow {
+  position: absolute;
+  left: 0;
+  top: 95%;
+  width: 100%;
+  text-align: center;
+  color: transparent;
+}
+
+.captionButtons {
+  position: absolute;
+  left: 0;
+  top: 80%;
+  width: 100%;
+  text-align: center;
+  color: transparent;
+}
+
 .captionThree span.borderTwo {
   background-color: transparent;
   color: #fff;
@@ -171,7 +189,7 @@ h5 {
   color: white;
   border-color: white;
   margin: 0;
-  width: 100px;
+  width: 90px;
 }
 .sectionHeader {
   color: #fff;
