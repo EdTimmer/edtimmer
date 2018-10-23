@@ -85,46 +85,52 @@ class Resume extends Component {
               <span className='headerTwo'>Junior Developer (part-time)</span>
               <p className='jobCompany'>(Confidential Company)<span className='jobLocation'>, New York, NY, 08/2018 - Present</span></p>
               <p className='jobDescription'>
-                Developing Jest unit testing for a mobile social networking application built with React Native, GraphQL, Apollo, and AWS.
+                Developing Jest unit testing for a mobile social networking application built with React Native, GraphQL, Apollo, and AWS
                 </p>
               <p className='jobDescription postPadding'>
-                Note: Company is operating in stealth mode and wishes to remain anonymous. Employment can be verified upon request.
+                Note: Company is operating in stealth mode and wishes to remain anonymous. Employment can be verified upon request
               </p>
 
               <span className='headerTwo'>Contract Attorney</span>
               <p className='jobCompany'>Various Companies<span className='jobLocation'>, New York, NY, 08/2017 - Present</span></p>
               <p className='jobDescription postPadding'>
-                Assist with litigation on temporary projects.
+                Assist with litigation on temporary projects
               </p>
 
               <span className='headerTwo'>Counsel</span>
               <p className='jobCompany'>Heslin Rothenberg Farley & Mesiti<span className='jobLocation'>, Albany, NY, 02/2015 - 06/2017</span></p>
               <p className='jobDescription postPadding'>
-                Secured patents for pharmaceutical and biotechnology inventions.
+                Prosecuted patent applications in areas of pharmaceuticals, biotechnology, polymers, and materials science<br />
+                Performed due diligence reviews and prepared patentability and freedom-to-operate opinions
               </p>
 
               <span className='headerTwo'>Senior Attorney</span>
               <p className='jobCompany'>Goodwin Procter<span className='jobLocation'>, New York, NY, 08/2006 - 02/2015</span></p>
               <p className='jobDescription postPadding'>
-                Analyzed pharmaceutical and biotechnology patents for litigation.
+                Prepared pharmaceutical patent opinions and supporting expert declarations<br />
+                Prepared Detailed Statements for Abbreviated New Drug Application filings<br />
+                Prosecuted patent applications in various technologies, including polymers and formulations
               </p>
 
               <span className='headerTwo'>Associate</span>
               <p className='jobCompany'>Heslin Rothenberg Farley & Mesiti<span className='jobLocation'>, Albany, NY, 01/2004 - 08/2006</span></p>
               <p className='jobDescription postPadding'>
-                Secured patents for pharmaceutical and biotechnology inventions.
+                Prosecuted pharmaceutical patent applications<br />
+                Prepared pharmaceutical patent opinions
               </p>
 
               <span className='headerTwo postPadding'>Patent Attorney</span>
               <p className='jobCompany'>CuraGen Corporation<span className='jobLocation'>, New Haven, CT, 12/2002 - 12/2003</span></p>
               <p className='jobDescription postPadding'>
-                Secured patents for biotechnology inventions and obtained trademark registrations.
+                Prosecuted biotechnology patent applications<br />
+                Prepared biotechnology freedom to operate, non-infringement, and patentability reports
               </p>
 
               <span className='headerTwo'>Associate</span>
               <p className='jobCompany'>Lambert & Associates<span className='jobLocation'>, Boston, MA, 03/2001 - 11/2002</span></p>
               <p className='jobDescription postPadding'>
-                Secured patents for mechanical inventions and obtained trademark registrations.
+                Prosecuted patent applications in mechanical arts<br />
+                Prosecuted trademark applications
               </p>
             </Grid>
 
