@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Nav from './Nav';
 // import fossil from '../images/fossil.jpg'
 // import PortfolioButton from './Buttons/PortfolioButton';
@@ -37,7 +37,12 @@ class Home extends Component {
                     <p>I am a Brooklyn based full stack software engineer and a recent survivor of <a href="https://www.fullstackacademy.com" rel="noopener noreferrer" target="_blank">Fullstack Academy</a> coding bootcamp</p>
                     <p>
                         I work part-time as a Junior Developer at a startup and I am also looking for full-time opportunities
-          </p>
+                    </p>
+                    <div style={{ paddingTop: '10px' }}>
+
+                    </div>
+                    <Link to={`/portfolio`} style={{ paddingRight: '30px' }}>PORTFOLIO</Link>
+                    <Link to={`/resume`} style={{ paddingLeft: '30px' }}>RESUME</Link>
                 </div>
 
                 <div className="bgimg-2">
