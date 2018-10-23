@@ -40,7 +40,7 @@ class SixWords extends React.Component {
         />
         <CardContent>
           <Typography component="p">
-            Meditation website currently being built with JavaScript, HTML, CSS, Node, Express, Sequelize, PostgreSQL, React, React-Redux, Material UI, and Axios.
+            Meditation website currently being built with JavaScript, HTML, CSS, Node, Express, Sequelize, PostgreSQL, React, React-Redux, Material-UI, and Axios.
           </Typography>
         </CardContent>
         <CardActions>

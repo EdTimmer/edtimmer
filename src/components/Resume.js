@@ -77,19 +77,29 @@ class Resume extends Component {
             </Grid>
 
             <Grid xs={2} />
-            <Grid xs={2} className='resume'>
-              <span className='resHeader'>Work Experience</span>
-            </Grid>
-            <Grid xs={8} className='resume'>
 
+            <Grid xs={2} className='resume'>
+              <span className='resHeader'>Software Engineer Work Experience</span>
+            </Grid>
+
+            <Grid xs={8} className='resume'>
               <span className='headerTwo'>Junior Developer (part-time)</span>
               <p className='jobCompany'>(Confidential Company)<span className='jobLocation'>, New York, NY, 08/2018 - Present</span></p>
               <p className='jobDescription'>
                 Developing Jest unit testing for a mobile social networking application built with React Native, GraphQL, Apollo, and AWS
                 </p>
               <p className='jobDescription postPadding'>
-                Note: Company is operating in stealth mode and wishes to remain anonymous. Employment can be verified upon request
+                Note: Company is operating in stealth mode and wishes to remain anonymous, employment can be verified upon request
               </p>
+            </Grid>
+
+            <Grid xs={2} />
+
+            <Grid xs={2} className='resume'>
+              <span className='resHeader'>Attorney Work Experience</span>
+            </Grid>
+
+            <Grid xs={8} className='resume'>
 
               <span className='headerTwo'>Contract Attorney</span>
               <p className='jobCompany'>Various Companies<span className='jobLocation'>, New York, NY, 08/2017 - Present</span></p>
@@ -129,7 +139,7 @@ class Resume extends Component {
               <span className='headerTwo'>Associate</span>
               <p className='jobCompany'>Lambert & Associates<span className='jobLocation'>, Boston, MA, 03/2001 - 11/2002</span></p>
               <p className='jobDescription postPadding'>
-                Prosecuted patent applications in mechanical arts<br />
+                Prosecuted patent applications for mechanical inventions<br />
                 Prosecuted trademark applications
               </p>
             </Grid>

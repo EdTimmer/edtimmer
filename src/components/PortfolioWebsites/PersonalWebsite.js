@@ -40,7 +40,7 @@ class PersonalWebsite extends React.Component {
         />
         <CardContent>
           <Typography component="p">
-            Personal portfolio website built with JavaScript, HTML, CSS, React, and Material UI.
+            Personal portfolio website built with JavaScript, HTML, CSS, React, and Material-UI.
           </Typography>
         </CardContent>
         <CardActions>

@@ -40,7 +40,7 @@ class PurlyLove extends React.Component {
         />
         <CardContent>
           <Typography component="p">
-            Knitting artist website built with JavaScript, HTML, CSS, React, and Material UI.
+            Knitting artist website built with JavaScript, HTML, CSS, React, and Material-UI.
           </Typography>
         </CardContent>
         <CardActions>
