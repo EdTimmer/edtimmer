@@ -16,7 +16,7 @@ class Home extends Component {
         return (
             <div>
                 <div className="bgimg-1">
-                    <Nav style={{ backgroundColor: 'transparent' }} />
+                    {/*<Nav style={{ backgroundColor: 'transparent' }} />*/}
 
                     <div className="captionTwo">
                         <span className="borderTwo" style={{ fontSize: '40px' }}>EDWARD TIMMER</span>
@@ -24,9 +24,10 @@ class Home extends Component {
                         <span className="borderTwo" style={{ fontSize: '20px' }}>full stack software engineer</span>
                     </div>
 
-                    <div className='captionArrow'>
+                    {/*<div className='captionArrow'>
                         <img src={downarrow} width={20} />
-                    </div>
+                        <p style={{ color: 'white' }}><i>please scroll down</i></p>
+                    </div>*/}
 
 
                 </div>
