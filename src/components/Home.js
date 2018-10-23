@@ -33,9 +33,9 @@ class Home extends Component {
 
                 <div style={{ color: '#777', backgroundColor: 'white', textAlign: 'center', padding: '20px 10px 20px 5px' }}>
                     <span className='resHeader' style={{ textAlign: 'center' }}>About</span>
-                    <p>I am a Brooklyn based full stack software engineer and a recent survivor of <a href="https://www.fullstackacademy.com" rel="noopener noreferrer" target="_blank">Fullstack Academy</a> coding bootcamp.</p>
+                    <p>I am a Brooklyn based full stack software engineer and a recent survivor of <a href="https://www.fullstackacademy.com" rel="noopener noreferrer" target="_blank">Fullstack Academy</a> coding bootcamp</p>
                     <p>
-                        I work part-time as a Junior Developer at a startup and I am also looking for full-time opportunities.
+                        I work part-time as a Junior Developer at a startup and I am also looking for full-time opportunities
           </p>
                 </div>
 
@@ -48,7 +48,7 @@ class Home extends Component {
                 <div style={{ position: 'relative' }}>
                     <div style={{ color: '#777', backgroundColor: 'white', textAlign: 'center', padding: '40px 80px' }}>
                         <p>
-                            I have 16 years of experience as a pharma and biotech patent attorney.
+                            I have 16 years of experience as a pharma and biotech patent attorney
               </p>
                     </div>
                 </div>
@@ -62,7 +62,7 @@ class Home extends Component {
                 <div style={{ position: 'relative' }}>
                     <div style={{ color: '#777', backgroundColor: 'white', textAlign: 'center', padding: '20px 0 20px 0' }}>
                         <div>
-                            <p>I can be reached by email at <b>edtimmer@gmail.com</b>.</p>
+                            <p>I can be reached by email at <b>edtimmer@gmail.com</b></p>
                             <p>You can also find me at LinkedIn, GitHub, and Medium:</p>
                         </div>
                         <div style={{ paddingTop: '10px' }}>
