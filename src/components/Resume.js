@@ -53,6 +53,7 @@ class Resume extends Component {
                     <ul className='list'>
                       <li>React Native</li>
                       <li>GraphQL</li>
+                      <li>Sass</li>
                       <li>JWT</li>
                       <li>Stripe</li>
                       <li>Moment</li>
@@ -86,7 +87,7 @@ class Resume extends Component {
               <span className='headerTwo'>Junior Developer (part-time)</span>
               <p className='jobCompany'>(Confidential Company)<span className='jobLocation'>, New York, NY, 08/2018 - Present</span></p>
               <p className='jobDescription'>
-                Developing Jest unit testing for a mobile social networking application built with React Native, GraphQL, Apollo, and AWS
+                Developing Jest unit testing for a social networking mobile application built with React Native, GraphQL, Apollo, and AWS
                 </p>
               <p className='jobDescription postPadding'>
                 Note: Company is operating in stealth mode and wishes to remain anonymous, employment can be verified upon request

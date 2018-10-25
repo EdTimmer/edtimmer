@@ -32,8 +32,8 @@ class Home extends Component {
 
                 </div>
 
-                <div style={{ color: '#777', backgroundColor: 'white', textAlign: 'center', padding: '20px 10px 20px 5px' }}>
-                    <span className='resHeader' style={{ textAlign: 'center' }}>About</span>
+                <div style={{ color: '#777', backgroundColor: 'white', textAlign: 'center', padding: '20px 10px' }}>
+                    <p className='resHeader' style={{ textAlign: 'center' }}>About</p>
                     <p>I am a Brooklyn based full stack software engineer and a recent survivor of <a href="https://www.fullstackacademy.com" rel="noopener noreferrer" target="_blank">Fullstack Academy</a> coding bootcamp</p>
                     <p>
                         I work part-time as a Junior Developer at a startup and I am also looking for full-time opportunities
@@ -41,8 +41,10 @@ class Home extends Component {
                     <div style={{ paddingTop: '10px' }}>
 
                     </div>
-                    <Link to={`/portfolio`} style={{ paddingRight: '30px' }}>PORTFOLIO</Link>
-                    <Link to={`/resume`} style={{ paddingLeft: '30px' }}>RESUME</Link>
+                    <div style={{ textAlign: 'center' }}>
+                        <Link to={`/portfolio`} style={{ paddingRight: '30px' }}>PORTFOLIO</Link>
+                        <Link to={`/resume`} style={{ paddingLeft: '30px' }}>RESUME</Link>
+                    </div>
                 </div>
 
                 <div className="bgimg-2">
