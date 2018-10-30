@@ -32,7 +32,7 @@ class TronCalculator extends React.Component {
       <Card className={classes.card}>
         <CardHeader
           title="Tron Calculator"
-          subheader="Solo project | November 2018"
+          subheader="Solo project | October 2018"
         />
         <CardMedia
           className={classes.media}
