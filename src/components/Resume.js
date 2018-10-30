@@ -85,13 +85,10 @@ class Resume extends Component {
 
             <Grid xs={8} className='resume'>
               <span className='headerTwo'>Junior Developer (part-time)</span>
-              <p className='jobCompany'>(Confidential Company)<span className='jobLocation'>, New York, NY, 08/2018 - Present</span></p>
+              <p className='jobCompany'>The Loud<span className='jobLocation'>, New York, NY, 08/2018 - Present</span></p>
               <p className='jobDescription'>
                 Developing Jest unit testing for a social networking mobile application built with React Native, GraphQL, Apollo, and AWS
                 </p>
-              <p className='jobDescription postPadding'>
-                Note: Company is operating in stealth mode and wishes to remain anonymous, employment can be verified upon request
-              </p>
             </Grid>
 
             <Grid xs={2} />
