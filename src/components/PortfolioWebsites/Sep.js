@@ -13,6 +13,7 @@ import sep from '../../images/sep.png'
 const styles = theme => ({
   card: {
     maxWidth: 400,
+    // minHeight: 443,
   },
   media: {
     height: 0,

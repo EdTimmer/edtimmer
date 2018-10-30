@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Grid } from '@material-ui/core';
 import Nav from './Nav';
+import TronCalculator from './PortfolioWebsites/TronCalculator';
 import PersonalWebsite from './PortfolioWebsites/PersonalWebsite';
 import PurlyLove from './PortfolioWebsites/PurlyLove';
 import SixWords from './PortfolioWebsites/SixWords';
@@ -23,6 +24,9 @@ class Portfolio extends Component {
 
                     <Grid container spacing={0} alignItems='center' style={{ backgroundColor: 'whitesmoke' }}>
                         {/* justify="center" alignItems='center' */}
+                        <Grid item xs={4} container justify="center" alignItems='center' className='portfolioPadding'>
+                            <TronCalculator />
+                        </Grid>
                         <Grid item xs={4} container justify="center" alignItems='center' className='portfolioPadding'>
                             <PersonalWebsite />
                         </Grid>

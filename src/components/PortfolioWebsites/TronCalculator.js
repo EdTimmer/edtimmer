@@ -8,7 +8,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
-import untappedtrivia from '../../images/untappedtrivia.png'
+import calculator from '../../images/calculator.png'
 
 const styles = theme => ({
   card: {
@@ -24,35 +24,32 @@ const styles = theme => ({
   }
 });
 
-class UntappedTrivia extends React.Component {
+class TronCalculator extends React.Component {
   render() {
     const { classes } = this.props;
 
     return (
       <Card className={classes.card}>
         <CardHeader
-          title="Untapped Trivia"
-          subheader="Fullstack Academy team project | June 2018"
+          title="Tron Calculator"
+          subheader="Solo project | November 2018"
         />
         <CardMedia
           className={classes.media}
-          image={untappedtrivia}
+          image={calculator}
           title="Contemplative Reptile"
         />
         <CardContent>
           <Typography component="p">
-            Bar trivia game app built with JavaScript, HTML, CSS, Node, Express, Sequelize, PostgreSQL, React, React-Redux, React Native, Stripe, Moment, and Axios.
+            Calculator website built with JavaScript, HTML, CSS, and React.
           </Typography>
         </CardContent>
         <CardActions>
           <Button size="small" color="primary">
-            <a href="https://untapped-trivia.herokuapp.com/" rel="noopener noreferrer" target="_blank">WEBSITE</a>
+            <a href="https://troncalculator.herokuapp.com/#/" rel="noopener noreferrer" target="_blank">WEBSITE</a>
           </Button>
           <Button size="small" color="primary">
-            <a href="https://github.com/jlp0422/capstone" rel="noopener noreferrer" target="_blank">CODE</a>
-          </Button>
-          <Button size="small" color="primary">
-            <a href="https://www.youtube.com/watch?v=cvqqW-UEuMk&feature=youtu.be" rel="noopener noreferrer" target="_blank">VIDEO</a>
+            <a href="https://github.com/EdTimmer/calculator" rel="noopener noreferrer" target="_blank">CODE</a>
           </Button>
         </CardActions>
       </Card>
@@ -60,8 +57,8 @@ class UntappedTrivia extends React.Component {
   }
 }
 
-UntappedTrivia.propTypes = {
+TronCalculator.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(UntappedTrivia);
+export default withStyles(styles)(TronCalculator);
