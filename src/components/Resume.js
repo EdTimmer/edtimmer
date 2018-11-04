@@ -52,8 +52,7 @@ class Resume extends Component {
                     <span className='headerTwo'>Knowledgeable</span>
                     <ul className='list'>
                       <li>React Native</li>
-                      <li>GraphQL</li>
-                      <li>Sass</li>
+                      <li>GraphQL</li>                      
                       <li>JWT</li>
                       <li>Stripe</li>
                       <li>Moment</li>
@@ -67,6 +66,7 @@ class Resume extends Component {
                   <span>
                     <span className='headerTwo'>Some Experience</span>
                     <ul className='list'>
+                      <li>Sass</li>
                       <li>Mocha</li>
                       <li>Chai</li>
                       <li>Socket.IO</li>
