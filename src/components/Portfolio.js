@@ -10,6 +10,7 @@ import Clickr from './PortfolioWebsites/Clickr';
 import WilliamsPomona from './PortfolioWebsites/WilliamsPomona';
 import Sep from './PortfolioWebsites/Sep';
 import MobileMusicPlayer from './PortfolioWebsites/MobileMusicPlayer';
+import BirdingJournal from './PortfolioWebsites/BirdingJournal';
 
 class Portfolio extends Component {
     componentDidMount() {
@@ -24,7 +25,9 @@ class Portfolio extends Component {
                     </div>
 
                     <Grid container spacing={0} alignItems='center' style={{ backgroundColor: 'whitesmoke' }}>
-                        {/* justify="center" alignItems='center' */}
+                        <Grid item xs={4} container justify="center" alignItems='center' className='portfolioPadding'>
+                            <BirdingJournal />
+                        </Grid>
                         <Grid item xs={4} container justify="center" alignItems='center' className='portfolioPadding'>
                             <MobileMusicPlayer />
                         </Grid>
