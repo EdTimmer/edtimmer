@@ -36,7 +36,7 @@ class Home extends Component {
                     <p className='resHeader' style={{ textAlign: 'center' }}>About</p>
                     <p>I am a Brooklyn based full stack software engineer and a recent survivor of <a href="https://www.fullstackacademy.com" rel="noopener noreferrer" target="_blank">Fullstack Academy</a> coding bootcamp</p>
                     <p>
-                        I work part-time as a Junior Developer at a startup and I am also looking for full-time opportunities
+                        I am always coding and taking Udemy courses, currently looking for full-time opportunities
                     </p>
                     <div style={{ paddingTop: '10px' }}>
 
@@ -57,7 +57,7 @@ class Home extends Component {
                     <div style={{ color: '#777', backgroundColor: 'white', textAlign: 'center', padding: '40px 80px' }}>
                         <p>
                             I have 16 years of experience as a pharma and biotech patent attorney
-              </p>
+                        </p>
                     </div>
                 </div>
 

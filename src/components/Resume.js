@@ -38,8 +38,7 @@ class Resume extends Component {
                       <li>PostgreSQL</li>
                       <li>React</li>
                       <li>React-Redux</li>
-                      <li>Jest</li>
-                      <li>Enzyme</li>
+                      
                       <li>Axios</li>
                       <li>HTML</li>
                       <li>CSS</li>
@@ -51,8 +50,11 @@ class Resume extends Component {
                   <span>
                     <span className='headerTwo'>Knowledgeable</span>
                     <ul className='list'>
-                      <li>React Native</li>
-                      <li>GraphQL</li>                      
+                      
+                      <li>GraphQL</li>   
+                      <li>Prisma</li>  
+                      <li>Jest</li>
+                      <li>Enzyme</li>                  
                       <li>JWT</li>
                       <li>Stripe</li>
                       <li>Moment</li>
@@ -66,6 +68,8 @@ class Resume extends Component {
                   <span>
                     <span className='headerTwo'>Some Experience</span>
                     <ul className='list'>
+                      <li>React Native</li>
+                      <li>MongoDB</li>
                       <li>Sass</li>
                       <li>Mocha</li>
                       <li>Chai</li>
@@ -81,14 +85,6 @@ class Resume extends Component {
 
             <Grid xs={2} className='resume'>
               <span className='resHeader'>Software Engineer Work Experience</span>
-            </Grid>
-
-            <Grid xs={8} className='resume'>
-              <span className='headerTwo'>Junior Developer (part-time)</span>
-              <p className='jobCompany'>The Loud<span className='jobLocation'>, New York, NY, 08/2018 - Present</span></p>
-              <p className='jobDescription'>
-                Developing Jest unit testing for a social networking mobile application built with React Native, GraphQL, Apollo, and AWS
-                </p>
             </Grid>
 
             <Grid xs={2} />
