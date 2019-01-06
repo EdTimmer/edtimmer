@@ -84,12 +84,6 @@ class Resume extends Component {
             <Grid xs={2} />
 
             <Grid xs={2} className='resume'>
-              <span className='resHeader'>Software Engineer Work Experience</span>
-            </Grid>
-
-            <Grid xs={2} />
-
-            <Grid xs={2} className='resume'>
               <span className='resHeader'>Attorney Work Experience</span>
             </Grid>
 
