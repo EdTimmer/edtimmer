@@ -17,27 +17,27 @@ class Resume extends Component {
 
           <Grid container spacing={0} style={{ backgroundColor: 'white', padding: '0', height: '95vh' }}>
 
-            <Grid xs={12} style={{ textAlign: 'center' }}>
+            <Grid item xs={12} style={{ textAlign: 'center' }}>
               <DownloadButton />                           
             </Grid>
-            <Grid xs={2} />
-            <Grid xs={2} className='resume'>
+            <Grid item xs={2} />
+            <Grid item xs={2} className='resume'>
               <span className='resHeader'>Programming Languages</span>
             </Grid>
-            <Grid xs={8} className='resume'>
+            <Grid item xs={8} className='resume'>
               <ul className='list'>
                 <li><strong>JavaScript</strong> (proficient)</li>
                 <li><strong>Java</strong> (intermediate)</li>
               </ul>
             </Grid>
 
-            <Grid xs={2} />
-            <Grid xs={2} className='resume'>
+            <Grid item xs={2} />
+            <Grid item xs={2} className='resume'>
               <span className='resHeader'>Technologies</span>
             </Grid>
-            <Grid xs={8}>
+            <Grid item xs={8}>
               <Grid container spacing={0} style={{ paddingLeft: '10px' }}>
-                <Grid xs={3} className='resume'>
+                <Grid item xs={3} className='resume'>
                   <span>
                     <span className='headerTwo'>Proficient</span>
                     <ul className='list'>
@@ -54,7 +54,7 @@ class Resume extends Component {
                     </ul>
                   </span>
                 </Grid>
-                <Grid xs={3} className='resume'>
+                <Grid item xs={3} className='resume'>
                   <span>
                     <span className='headerTwo'>Knowledgeable</span>
                     <ul className='list'>                      
@@ -71,7 +71,7 @@ class Resume extends Component {
                     </ul>
                   </span>
                 </Grid>
-                <Grid xs={3} className='resume'>
+                <Grid item xs={3} className='resume'>
                   <span>
                     <span className='headerTwo'>Some Experience</span>
                     <ul className='list'>
@@ -84,17 +84,17 @@ class Resume extends Component {
                     </ul>
                   </span>
                 </Grid>
-                <Grid xs={3} />
+                <Grid item xs={3} />
               </Grid>
             </Grid>
 
-            <Grid xs={2} />
+            <Grid item xs={2} />
 
-            <Grid xs={2} className='resume'>
+            <Grid item xs={2} className='resume'>
               <span className='resHeader'>Attorney Work Experience</span>
             </Grid>
 
-            <Grid xs={8} className='resume'>
+            <Grid item xs={8} className='resume'>
 
               <span className='headerTwo'>Contract Attorney</span>
               <p className='jobCompany'>Various Companies<span className='jobLocation'>, New York, NY, 08/2017 - Present</span></p>
@@ -139,20 +139,20 @@ class Resume extends Component {
               </p>
             </Grid>
 
-            <Grid xs={2} />
-            <Grid xs={2} className='resume'>
+            <Grid item xs={2} />
+            <Grid item xs={2} className='resume'>
               <span className='resHeader'>Bar Admissions</span>
             </Grid>
-            <Grid xs={8} className='resume'>
+            <Grid item xs={8} className='resume'>
               <p className='bar'>New York State</p>
               <p className='bar'>U.S. Patent and Trademark Office</p>
             </Grid>
 
-            <Grid xs={2} />
-            <Grid xs={2} className='resume'>
+            <Grid item xs={2} />
+            <Grid item xs={2} className='resume'>
               <span className='resHeader'>Education</span>
             </Grid>
-            <Grid xs={8} className='resume'>
+            <Grid item xs={8} className='resume'>
               <p className='jobCompany'>Fullstack Academy of Code<span className='jobLocation'>, New York, NY, 1/2018 - 6/2018</span></p>
               <p className='jobDescription postPadding' style={{ marginRight: "300px" }}>
                 <a href="https://www.fullstackacademy.com" rel="noopener noreferrer" target="_blank">Fullstack Academy of Code</a> is a software engineering coding bootcamp with a rigorous admissions process. Through an advanced curriculum and project based structure, students learn full stack JavaScript while immersed in the latest web technologies such as Node.js, React, and SQL.
@@ -177,11 +177,11 @@ class Resume extends Component {
               </p>
             </Grid>
 
-            <Grid xs={2} />
-            <Grid xs={2} className='resume'>
+            <Grid item xs={2} />
+            <Grid item xs={2} className='resume'>
               <span className='resHeader'>Languages</span>
             </Grid>
-            <Grid xs={8} className='resume'>
+            <Grid item xs={8} className='resume'>
               <p className='bar'>English</p>
               <p className='bar'>Russian</p>
             </Grid>
