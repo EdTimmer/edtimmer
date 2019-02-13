@@ -18,7 +18,19 @@ class Resume extends Component {
           <Grid container spacing={0} style={{ backgroundColor: 'white', padding: '0', height: '95vh' }}>
 
             <Grid xs={12} style={{ textAlign: 'center' }}>
-              <DownloadButton />
+              <div>
+                <DownloadButton />
+              </div>              
+            </Grid>
+            <Grid xs={2} />
+            <Grid xs={2} className='resume'>
+              <span className='resHeader'>Programming Languages</span>
+            </Grid>
+            <Grid xs={8} className='resume'>
+              <ul className='list'>
+                <li><strong>JavaScript</strong> (proficient)</li>
+                <li><strong>Java</strong> (intermediate)</li>
+              </ul>
             </Grid>
 
             <Grid xs={2} />
@@ -31,14 +43,12 @@ class Resume extends Component {
                   <span>
                     <span className='headerTwo'>Proficient</span>
                     <ul className='list'>
-                      <li>JavaScript (ES5/ES6)</li>
                       <li>Node</li>
                       <li>Express</li>
                       <li>Sequelize</li>
                       <li>PostgreSQL</li>
                       <li>React</li>
-                      <li>React-Redux</li>
-                      
+                      <li>React-Redux</li>                      
                       <li>Axios</li>
                       <li>HTML</li>
                       <li>CSS</li>
@@ -49,8 +59,7 @@ class Resume extends Component {
                 <Grid xs={3} className='resume'>
                   <span>
                     <span className='headerTwo'>Knowledgeable</span>
-                    <ul className='list'>
-                      
+                    <ul className='list'>                      
                       <li>GraphQL</li>   
                       <li>Prisma</li>  
                       <li>Jest</li>
