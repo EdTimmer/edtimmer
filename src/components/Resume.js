@@ -18,9 +18,7 @@ class Resume extends Component {
           <Grid container spacing={0} style={{ backgroundColor: 'white', padding: '0', height: '95vh' }}>
 
             <Grid xs={12} style={{ textAlign: 'center' }}>
-              <div>
-                <DownloadButton />
-              </div>              
+              <DownloadButton />                           
             </Grid>
             <Grid xs={2} />
             <Grid xs={2} className='resume'>
