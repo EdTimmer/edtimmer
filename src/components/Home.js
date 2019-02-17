@@ -9,6 +9,7 @@ import github from '../images/github.svg';
 import medium from '../images/medium.png';
 import linkedin from '../images/linkedin.png';
 import downarrow from '../images/down2.png';
+import profilephoto from '../images/profilephoto.jpg';
 
 // className='bgimg-1B'
 class Home extends Component {
@@ -43,8 +44,10 @@ class Home extends Component {
                     </div>
                     <div style={{ textAlign: 'center' }}>
                         <Link to={`/portfolio`} style={{ paddingRight: '30px' }}>PORTFOLIO</Link>
+                        <img src={profilephoto} style={{ height: '200px' }} alt="profileimage" />
                         <Link to={`/resume`} style={{ paddingLeft: '30px' }}>RESUME</Link>
                     </div>
+                    
                 </div>
 
                 <div className="bgimg-2">
