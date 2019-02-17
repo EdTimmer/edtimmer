@@ -11,6 +11,7 @@ import WilliamsPomona from './PortfolioWebsites/WilliamsPomona';
 import Sep from './PortfolioWebsites/Sep';
 import MobileMusicPlayer from './PortfolioWebsites/MobileMusicPlayer';
 import BirdingJournal from './PortfolioWebsites/BirdingJournal';
+import MushroomTracker from './PortfolioWebsites/MushroomTracker';
 
 class Portfolio extends Component {
     componentDidMount() {
@@ -25,6 +26,9 @@ class Portfolio extends Component {
                     </div>
 
                     <Grid container spacing={0} alignItems='center' style={{ backgroundColor: 'whitesmoke' }}>
+                        <Grid item xs={4} container justify="center" alignItems='center' className='portfolioPadding'>
+                            <MushroomTracker />
+                        </Grid>
                         <Grid item xs={4} container justify="center" alignItems='center' className='portfolioPadding'>
                             <BirdingJournal />
                         </Grid>
