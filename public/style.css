@@ -301,6 +301,17 @@ h5 {
   clear: both;
 }
 
+.about {
+  text-align: left;
+  padding: 40px 20px 20px 20px;
+  margin-top: 3em;
+  font-size: 1.2em;
+}
+
+.about-line {
+  margin: 0 10em 1em 0;
+}
+
 /* CSS for autotype */
 
 @-webkit-keyframes typing { from { width: 0; } }

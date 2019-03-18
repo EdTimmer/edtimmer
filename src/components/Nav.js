@@ -7,12 +7,13 @@ class Nav extends Component {
         super();
         this.state = {
             home: 'white',
+            about: 'white',
             portfolio: 'white',
             resume: 'white'
         }
         this.selectHome = this.selectHome.bind(this);
         this.selectPortfolio = this.selectPortfolio.bind(this);
-        // this.selectAbout = this.selectAbout.bind(this);
+        this.selectAbout = this.selectAbout.bind(this);
         this.selectResume = this.selectResume.bind(this);
         this.unselect = this.unselect.bind(this);
     }
@@ -20,6 +21,17 @@ class Nav extends Component {
     selectHome() {
         this.setState({
             home: 'white',
+            about: 'grey',
+            portfolio: 'grey',
+            resume: 'grey'
+        })
+    }
+
+
+    selectAbout() {
+        this.setState({
+            home: 'grey',
+            about: 'white',
             portfolio: 'grey',
             resume: 'grey'
         })
@@ -28,6 +40,7 @@ class Nav extends Component {
     selectPortfolio() {
         this.setState({
             home: 'grey',
+            about: 'grey',
             portfolio: 'white',
             resume: 'grey'
         })
@@ -36,6 +49,7 @@ class Nav extends Component {
     selectResume() {
         this.setState({
             home: 'grey',
+            about: 'grey',
             portfolio: 'grey',
             resume: 'white'
         })
@@ -44,6 +58,7 @@ class Nav extends Component {
     unselect() {
         this.setState({
             home: 'white',
+            about: 'white',
             portfolio: 'white',
             resume: 'white'
         })
@@ -62,6 +77,8 @@ class Nav extends Component {
                     <div style={{ paddingTop: '10px' }}>
 
                         <Link to={`/`} style={{ color: this.state.home, textDecoration: 'none', padding: '0 20px 0 20px' }} onMouseEnter={this.selectHome} onMouseLeave={this.unselect}>HOME</Link>
+
+                        <Link to={`/about`} style={{ color: this.state.about, textDecoration: 'none', padding: '0 20px 0 20px' }} onMouseEnter={this.selectAbout} onMouseLeave={this.unselect}>ABOUT</Link>
 
                         <Link to={`/portfolio`} style={{ color: this.state.portfolio, textDecoration: 'none', padding: '0 20px 0 20px' }} onMouseEnter={this.selectPortfolio} onMouseLeave={this.unselect}>PORTFOLIO</Link>
 

@@ -17,7 +17,7 @@ class Home extends Component {
         return (
             <div>
                 <div className="bgimg-1">
-                    {/*<Nav style={{ backgroundColor: 'transparent' }} />*/}
+                    <Nav style={{ backgroundColor: 'transparent' }} />
 
                     <div className="captionTwo">
                         <span className="borderTwo" style={{ fontSize: '40px' }}>EDWARD TIMMER</span>
@@ -31,7 +31,7 @@ class Home extends Component {
                     </div>*/}
 
 
-                </div>
+                {/*</div>
 
                 <div style={{ color: '#777', backgroundColor: 'white', textAlign: 'center', padding: '20px 10px' }}>
                     <p className='resHeader' style={{ textAlign: 'center' }}>About</p>
@@ -90,7 +90,7 @@ class Home extends Component {
                     <Nav style={{ backgroundColor: 'transparent' }} />
                     <div className="captionThree">
                         <span className="borderTwo" style={{ fontSize: '20px' }}>thank you for visiting</span>
-                    </div>
+                </div>*/}
                 </div>
 
             </div>
