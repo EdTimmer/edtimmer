@@ -18,7 +18,7 @@ class About extends Component {
             <Nav header={'ABOUT'} />
           </div>
 
-          <Grid container spacing={0} style={{ backgroundColor: 'white', padding: '0', height: '90vh' }}>
+          <Grid container spacing={0} style={{ backgroundColor: 'white', padding: '0', height: '100%' }}>
 
 
             <Grid item xs={2} />
