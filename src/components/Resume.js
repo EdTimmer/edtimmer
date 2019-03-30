@@ -27,7 +27,7 @@ class Resume extends Component {
             <Grid item xs={8} className='resume'>
               <ul className='list'>
                 <li><strong>JavaScript</strong> (proficient)</li>
-                <li><strong>Java</strong> (intermediate)</li>
+                <li><strong>Java</strong> (beginner/intermediate)</li>
               </ul>
             </Grid>
 
@@ -41,12 +41,13 @@ class Resume extends Component {
                   <span>
                     <span className='headerTwo'>Proficient</span>
                     <ul className='list'>
+                      <li>React</li>
+                      <li>GraphQL</li>
+                      <li>React-Redux</li>
                       <li>Node</li>
                       <li>Express</li>
                       <li>Sequelize</li>
-                      <li>PostgreSQL</li>
-                      <li>React</li>
-                      <li>React-Redux</li>                      
+                      <li>PostgreSQL</li>                                            
                       <li>Axios</li>
                       <li>HTML</li>
                       <li>CSS</li>
@@ -57,14 +58,11 @@ class Resume extends Component {
                 <Grid item xs={3} className='resume'>
                   <span>
                     <span className='headerTwo'>Knowledgeable</span>
-                    <ul className='list'>                      
-                      <li>GraphQL</li>   
+                    <ul className='list'>                         
                       <li>Prisma</li>  
                       <li>Jest</li>
                       <li>Enzyme</li>                  
                       <li>JWT</li>
-                      <li>Stripe</li>
-                      <li>Moment</li>
                       <li>Materialize</li>
                       <li>Material-UI</li>
                       <li>Heroku</li>
@@ -77,7 +75,6 @@ class Resume extends Component {
                     <ul className='list'>
                       <li>React Native</li>
                       <li>MongoDB</li>
-                      <li>Sass</li>
                       <li>Mocha</li>
                       <li>Chai</li>
                       <li>Socket.IO</li>
@@ -86,6 +83,17 @@ class Resume extends Component {
                 </Grid>
                 <Grid item xs={3} />
               </Grid>
+            </Grid>
+
+            <Grid item xs={2} />
+            <Grid item xs={2} className='resume'>
+              <span className='resHeader'>Coding Bootcamp</span>
+            </Grid>
+            <Grid item xs={8} className='resume'>
+              <p className='jobCompany'>Fullstack Academy of Code<span className='jobLocation'>, New York, NY, 1/2018 - 6/2018</span></p>
+              <p className='jobDescription postPadding' style={{ marginRight: "300px" }}>
+                <a href="https://www.fullstackacademy.com" rel="noopener noreferrer" target="_blank">Fullstack Academy of Code</a> is a software engineering coding bootcamp with a rigorous admissions process. Through an advanced curriculum and project based structure, students learn full stack JavaScript while immersed in the latest web technologies such as Node.js, React, and SQL.
+              </p>              
             </Grid>
 
             <Grid item xs={2} />
@@ -152,13 +160,9 @@ class Resume extends Component {
             <Grid item xs={2} className='resume'>
               <span className='resHeader'>Education</span>
             </Grid>
-            <Grid item xs={8} className='resume'>
-              <p className='jobCompany'>Fullstack Academy of Code<span className='jobLocation'>, New York, NY, 1/2018 - 6/2018</span></p>
-              <p className='jobDescription postPadding' style={{ marginRight: "300px" }}>
-                <a href="https://www.fullstackacademy.com" rel="noopener noreferrer" target="_blank">Fullstack Academy of Code</a> is a software engineering coding bootcamp with a rigorous admissions process. Through an advanced curriculum and project based structure, students learn full stack JavaScript while immersed in the latest web technologies such as Node.js, React, and SQL.
-              </p>
+            <Grid item xs={8} className='resume'>              
 
-              <span className='headerTwo'>juris doctor in law</span>
+              <span className='headerTwo'>juris doctor</span>
               <p className='jobCompany'>Cardozo School of Law<span className='jobLocation'>, New York, NY, 09/1997 - 06/2000</span></p>
               <p className='jobDescription postPadding' style={{ marginRight: "300px" }}>
                 GPA: 3.02
