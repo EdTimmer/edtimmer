@@ -13,6 +13,7 @@ import MobileMusicPlayer from './PortfolioWebsites/MobileMusicPlayer';
 import BirdingJournal from './PortfolioWebsites/BirdingJournal';
 import MushroomTracker from './PortfolioWebsites/MushroomTracker';
 import PsiOpsAcademy from './PortfolioWebsites/PsiOpsAcademy';
+import TicTacToe from './PortfolioWebsites/TicTacToe';
 
 class Portfolio extends Component {
     componentDidMount() {
@@ -27,6 +28,9 @@ class Portfolio extends Component {
                     </div>
 
                     <Grid container spacing={0} alignItems='center' style={{ backgroundColor: 'whitesmoke' }}>
+                        <Grid item xs={4} container justify="center" alignItems='center' className='portfolioPadding'>
+                            <TicTacToe />
+                        </Grid>
                         <Grid item xs={4} container justify="center" alignItems='center' className='portfolioPadding'>
                             <PsiOpsAcademy />
                         </Grid>
