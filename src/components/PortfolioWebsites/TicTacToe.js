@@ -46,7 +46,7 @@ class TicTacToe extends React.Component {
         </CardContent>
         <CardActions>
           <Button size="small" color="primary">
-            <a href="https://tictactoespongebob.herokuapp.com/" rel="noopener noreferrer" target="_blank">WEBSITE</a>
+            <a href="http://tictactoe-game.s3-website.us-east-2.amazonaws.com" rel="noopener noreferrer" target="_blank">WEBSITE</a>
           </Button>
           <Button size="small" color="primary">
             <a href="https://github.com/EdTimmer/tictactoe" rel="noopener noreferrer" target="_blank">CODE</a>
