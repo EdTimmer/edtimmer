@@ -46,7 +46,7 @@ class PsiOpsAcademy extends React.Component {
         </CardContent>
         <CardActions>
           <Button size="small" color="primary">
-            <a href="https://psiopsacademy.herokuapp.com/" rel="noopener noreferrer" target="_blank">WEBSITE</a>
+            <a href="http://psiopsgame.s3-website.us-east-2.amazonaws.com" rel="noopener noreferrer" target="_blank">WEBSITE</a>
           </Button>
           <Button size="small" color="primary">
             <a href="https://github.com/EdTimmer/psi_ops_academy" rel="noopener noreferrer" target="_blank">CODE</a>
