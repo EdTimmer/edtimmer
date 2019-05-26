@@ -20,16 +20,6 @@ class Resume extends Component {
             <Grid item xs={12} style={{ textAlign: 'center' }}>
               <DownloadButton />                           
             </Grid>
-            {/*<Grid item xs={2} />
-            <Grid item xs={2} className='resume'>
-              <span className='resHeader'>Programming Languages</span>
-            </Grid>
-            <Grid item xs={8} className='resume'>
-              <ul className='list'>
-                <li><strong>JavaScript</strong> (proficient)</li>
-                <li><strong>Java</strong> (beginner/intermediate)</li>
-              </ul>
-    </Grid>*/}
 
             <Grid item xs={2} />
             <Grid item xs={2} className='resume'>
