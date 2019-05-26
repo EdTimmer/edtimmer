@@ -27,7 +27,10 @@ class About extends Component {
             </Grid>
             <Grid item xs={8} className='about'>
 
-              <p className="about-line">I am a Brooklyn based full stack software engineer and a recent graduate of <a href="https://www.fullstackacademy.com" rel="noopener noreferrer" target="_blank">Fullstack Academy</a> coding bootcamp.  Additionally, I have 16 years of experience as a pharma and biotech patent attorney.</p>
+              <p className="about-line">I am a Brooklyn based full stack software engineer and a recent graduate of <a href="https://www.fullstackacademy.com" rel="noopener noreferrer" target="_blank">Fullstack Academy</a> coding bootcamp.</p>  
+              
+              <p className="about-line">
+              Prior to going into web development I was a pharma and biotech patent attorney.  But my passion for making things prompted me to learn to code and to pursue career in web development.</p>
               
               <p className="about-line">Currently, I am looking for new opportunities and can be reached by email at <b>edtimmer@gmail.com</b>.</p>
 
