@@ -46,7 +46,7 @@ class TronCalculator extends React.Component {
         </CardContent>
         <CardActions>
           <Button size="small" color="primary">
-            <a href="http://tron-calculator.s3-website.us-east-2.amazonaws.com/#/" rel="noopener noreferrer" target="_blank">WEBSITE</a>
+            <a href="http://tron-calculator-2.s3-website.us-east-2.amazonaws.com/#/" rel="noopener noreferrer" target="_blank">WEBSITE</a>
           </Button>
           <Button size="small" color="primary">
             <a href="https://github.com/EdTimmer/calculator" rel="noopener noreferrer" target="_blank">CODE</a>
