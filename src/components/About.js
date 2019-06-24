@@ -32,7 +32,7 @@ class About extends Component {
               <p className="about-line">
               Prior to going into web development I was a pharma and biotech patent attorney.  But my passion for making things prompted me to learn to code and to pursue career in web development.</p>
               
-              <p className="about-line">Currently, I am looking for new opportunities and can be reached by email at <b>edtimmer@gmail.com</b>.</p>
+              <p className="about-line">I can be reached by email at <b>edtimmer@gmail.com</b>.</p>
 
               <p className="about-line">You can also find me at LinkedIn, GitHub, and Medium:</p>
               
