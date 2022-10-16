@@ -1,17 +1,12 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Nav from './Nav';
-// import fossil from '../images/fossil.jpg'
-// import PortfolioButton from './Buttons/PortfolioButton';
-// import ResumeButton from './Buttons/ResumeButton';
 
 import github from '../images/github.svg';
 import medium from '../images/medium.png';
 import linkedin from '../images/linkedin.png';
-import downarrow from '../images/down2.png';
 import profilephoto from '../images/profilephoto.jpg';
 
-// className='bgimg-1B'
 class Home extends Component {
     render() {
         return (
@@ -25,13 +20,7 @@ class Home extends Component {
                         <span className="borderTwo" style={{ fontSize: '20px' }}>full stack software engineer</span>
                     </div>
 
-                    {/*<div className='captionArrow'>
-                        <img src={downarrow} width={20} />
-                        <p style={{ color: 'white' }}><i>please scroll down</i></p>
-                    </div>*/}
-
-
-                {/*</div>
+                </div>
 
                 <div style={{ color: '#777', backgroundColor: 'white', textAlign: 'center', padding: '20px 10px' }}>
                     <p className='resHeader' style={{ textAlign: 'center' }}>About</p>
@@ -77,11 +66,11 @@ class Home extends Component {
                             <p>You can also find me at LinkedIn, GitHub, and Medium:</p>
                         </div>
                         <div style={{ paddingTop: '10px' }}>
-                            <span style={{ padding: '0 30px 0 30px' }}><a href="https://www.linkedin.com/in/edtimmer" rel="noopener noreferrer" target="_blank"><img src={linkedin} width={50} /></a></span>
+                            <span style={{ padding: '0 30px 0 30px' }}><a href="https://www.linkedin.com/in/edtimmer" rel="noopener noreferrer" target="_blank"><img src={linkedin} width={50} alt="linkedin" /></a></span>
 
-                            <span style={{ padding: '0 30px 0 30px' }}><a href="https://github.com/EdTimmer" rel="noopener noreferrer" target="_blank"><img src={github} width={50} /></a></span>
+                            <span style={{ padding: '0 30px 0 30px' }}><a href="https://github.com/EdTimmer" rel="noopener noreferrer" target="_blank"><img src={github} width={50} alt="github" /></a></span>
 
-                            <span style={{ padding: '0 30px 0 30px' }}><a href="https://medium.com/@edtimmer" rel="noopener noreferrer" target="_blank"><img src={medium} width={50} /></a></span>
+                            <span style={{ padding: '0 30px 0 30px' }}><a href="https://medium.com/@edtimmer" rel="noopener noreferrer" target="_blank"><img src={medium} width={50} alt="medium" /></a></span>
                         </div>
                     </div>
                 </div>
@@ -90,7 +79,7 @@ class Home extends Component {
                     <Nav style={{ backgroundColor: 'transparent' }} />
                     <div className="captionThree">
                         <span className="borderTwo" style={{ fontSize: '20px' }}>thank you for visiting</span>
-                </div>*/}
+                </div>
                 </div>
 
             </div>

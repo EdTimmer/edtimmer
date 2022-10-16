@@ -37,11 +37,11 @@ class About extends Component {
               <p className="about-line">You can also find me at LinkedIn, GitHub, and Medium:</p>
               
               <div style={{ paddingTop: '10px' }}>
-                  <span style={{ padding: '0 30px 0 30px' }}><a href="https://www.linkedin.com/in/edtimmer" rel="noopener noreferrer" target="_blank"><img src={linkedin} width={50} /></a></span>
+                  <span style={{ padding: '0 30px 0 30px' }}><a href="https://www.linkedin.com/in/edtimmer" rel="noopener noreferrer" target="_blank"><img src={linkedin} width={50} alt="linkedin" /></a></span>
 
-                  <span style={{ padding: '0 30px 0 30px' }}><a href="https://github.com/EdTimmer" rel="noopener noreferrer" target="_blank"><img src={github} width={50} /></a></span>
+                  <span style={{ padding: '0 30px 0 30px' }}><a href="https://github.com/EdTimmer" rel="noopener noreferrer" target="_blank"><img src={github} width={50} alt="github"/></a></span>
 
-                  <span style={{ padding: '0 30px 0 30px' }}><a href="https://medium.com/@edtimmer" rel="noopener noreferrer" target="_blank"><img src={medium} width={50} /></a></span>
+                  <span style={{ padding: '0 30px 0 30px' }}><a href="https://medium.com/@edtimmer" rel="noopener noreferrer" target="_blank"><img src={medium} width={50} alt="medium"/></a></span>
               </div>
 
             </Grid>
