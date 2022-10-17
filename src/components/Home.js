@@ -17,7 +17,7 @@ class Home extends Component {
                     <div className="captionTwo">
                         <span className="borderTwo" style={{ fontSize: '40px' }}>EDWARD TIMMER</span>
                         <br />
-                        <span className="borderTwo" style={{ fontSize: '20px' }}>full stack software engineer</span>
+                        <span className="borderTwo" style={{ fontSize: '20px' }}>software engineer</span>
                     </div>
 
                 </div>
